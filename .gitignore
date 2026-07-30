@@ -18,3 +18,5 @@ docs/feasibility.md
 linux/**/linux/
 *.log
 .DS_Store
+# Local Release upload tray (binaries)
+staging/
