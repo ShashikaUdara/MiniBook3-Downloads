@@ -56,14 +56,10 @@ cd minibook3-1.0.2-linux
 ### Linux — one-line install
 
 ```bash
-curl -fsSL https://github.com/ShashikaUdara/MiniBook3-Downloads/releases/download/v1.0.2/install.sh | bash -s -- --version 1.0.2
+curl -fsSL https://github.com/ShashikaUdara/MiniBook3-Downloads/releases/download/v1.0.2/install.sh | bash
 ```
 
-Latest rolling bootstrap (always follows the newest Release):
-
-```bash
-curl -fsSL https://github.com/ShashikaUdara/MiniBook3-Downloads/releases/latest/download/install.sh | bash
-```
+(`install.sh` on the **v1.0.2** Release already pins version 1.0.2 — no `--version` flag needed.)
 
 ### Windows
 
