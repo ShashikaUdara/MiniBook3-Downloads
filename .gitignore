@@ -1,2 +1,20 @@
 linux/v1.0.2/*
 docs/feasibility.md
+
+# Never commit installers or unpacked builds
+*.tar.gz
+*.AppImage
+*.deb
+*.exe
+*.dmg
+*.zip
+
+# Unpacked PyInstaller / install trees
+**/minibook3-*-linux/
+**/MiniBook3/
+**/_internal/
+
+# Local scratch
+linux/**/linux/
+*.log
+.DS_Store
