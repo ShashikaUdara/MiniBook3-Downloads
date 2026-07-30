@@ -302,13 +302,21 @@ When shipping e.g. `1.0.3`:
 
 ---
 
-## 10. Auto-update note (later)
+## 10. Auto-update feed (thin git + Release binaries)
 
-In-app auto-update still expects a folder-style feed (`linux/latest/stable/latest.txt`).  
-**This guide covers human downloads first.**  
-For auto-update later, see [`feasibility.md`](./feasibility.md) §4.3 (thin feed + absolute Release URLs).
+MiniBook3 Settings → Updates uses:
 
-Until then: shops install/update from **zolestio.com/downloads** using the GitHub links.
+| Role | Where |
+|------|--------|
+| Default update base | `https://raw.githubusercontent.com/ShashikaUdara/MiniBook3-Downloads/main` |
+| Channel pointer | `linux/latest/stable/latest.txt` (contents: `1.0.2`) |
+| Manifest | `linux/latest/stable/channel-manifest.json` with **absolute** `…/releases/download/v…/…` URLs |
+| Binary payload | GitHub Release assets only (never raw.githubusercontent for tarballs) |
+
+Also supported as flat Release assets (fallback): `stable-latest.txt`, `linux-stable-latest.txt`, `SHA256SUMS.txt`.
+
+Commit the tiny feed tree from this repo (`linux/latest/…`, `windows/latest/…`) after each GA promote.  
+Upload the matching `.tar.gz` / `.exe` on the Release **before** flipping `latest.txt`.
 
 ---
 
