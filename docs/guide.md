@@ -4,7 +4,7 @@
 > **Repo (local):** `Versions-MiniBook3-Downloads`  
 > **Repo (GitHub):** `https://github.com/ShashikaUdara/MiniBook3-Downloads`  
 > **Rule:** Big installers go on a **Release**. Git only holds tiny docs / pointers.  
-> **See also:** [`feasibility.md`](./feasibility.md)
+> **See also:** [`feasibility.md`](./feasibility.md) · Zolestio free-era host plan [`zolestio.v2/docs/host.md`](../../zolestio.v2/docs/host.md) (SQLite control-plane DB; MiniBook3/WMB3 POS DBs unchanged)
 
 ---
 
