@@ -308,15 +308,95 @@ MiniBook3 Settings → Updates uses:
 
 | Role | Where |
 |------|--------|
-| Default update base | `https://raw.githubusercontent.com/ShashikaUdara/MiniBook3-Downloads/main` |
-| Channel pointer | `linux/latest/stable/latest.txt` (contents: `1.0.2`) |
-| Manifest | `linux/latest/stable/channel-manifest.json` with **absolute** `…/releases/download/v…/…` URLs |
-| Binary payload | GitHub Release assets only (never raw.githubusercontent for tarballs) |
+| Default update base | `https://raw.githubusercontent.com/ShashikaUdara/MiniBook3-Downloads/Udara` (active branch; apps may also accept Release flat assets) |
+| Channel pointer | `{linux\|windows}/latest/stable/latest.txt` (contents: `1.0.2`) |
+| Manifest | `{linux\|windows}/latest/stable/channel-manifest.json` with **absolute** `…/releases/download/v…/…` URLs |
+| Binary payload | GitHub Release assets only (never raw.githubusercontent for tarballs / exes) |
 
-Also supported as flat Release assets (fallback): `stable-latest.txt`, `linux-stable-latest.txt`, `SHA256SUMS.txt`.
+Also supported as flat Release assets (fallback): `stable-latest.txt`, `linux-stable-latest.txt`, `SHA256SUMS.txt`, and platform install scripts.
 
 Commit the tiny feed tree from this repo (`linux/latest/…`, `windows/latest/…`) after each GA promote.  
-Upload the matching `.tar.gz` / `.exe` on the Release **before** flipping `latest.txt`.
+Upload the matching `.tar.gz` / `.exe` / `.zip` on the Release **before** treating the channel as live.
+
+---
+
+## 11. Windows v1.0.2 (parity with Linux — large upload deferred)
+
+Linux packages for `v1.0.2` are already on the Release. Windows follows the **same thin-git pattern**; the heavy upload is a separate operator step.
+
+### 11.1 Built artifacts (already on disk)
+
+| File | Role |
+|------|------|
+| `minibook3-1.0.2-win64-setup.exe` | Fresh install (Inno) |
+| `minibook3-1.0.2-win64-portable.zip` | Auto-update + portable run |
+| `install.ps1` | One-line bootstrap (`irm … \| iex`) |
+| Merged `SHA256SUMS.txt` | Linux lines **plus** Windows setup/portable hashes |
+
+### 11.2 Thin files committed in this repo
+
+```text
+windows/latest/stable/latest.txt
+windows/latest/stable/channel-manifest.json
+windows/latest/download-manifest.json
+windows/latest/install.ps1
+windows/latest/SHA256SUMS.txt          # Windows artifact hashes only (tiny)
+windows/install.ps1
+windows/SHA256SUMS.txt
+RELEASE_NOTES_v1.0.2.md                # Linux + Windows download tables
+```
+
+### 11.3 Local staging (gitignored — for upload later)
+
+```text
+staging/v1.0.2/
+  minibook3-1.0.2-win64-setup.exe
+  minibook3-1.0.2-win64-portable.zip
+  install.ps1
+  SHA256SUMS.txt                       # merged Linux + Windows (upload this)
+```
+
+### 11.4 Upload command (operator — not part of thin-feed commit)
+
+```powershell
+$VER = "1.0.2"
+$STAGING = "staging/v$VER"
+
+gh release upload "v$VER" `
+  "$STAGING/minibook3-$VER-win64-setup.exe" `
+  "$STAGING/minibook3-$VER-win64-portable.zip" `
+  "$STAGING/install.ps1" `
+  "$STAGING/SHA256SUMS.txt" `
+  --clobber
+```
+
+**Do not** replace `SHA256SUMS.txt` with a Windows-only file — keep every Linux line from the published Release and append the two Windows hashes (the staged file already does this).
+
+### 11.5 After upload — smoke
+
+```powershell
+$VER = "1.0.2"
+$base = "https://github.com/ShashikaUdara/MiniBook3-Downloads/releases/download/v$VER"
+foreach ($f in @(
+  "minibook3-$VER-win64-setup.exe",
+  "minibook3-$VER-win64-portable.zip",
+  "install.ps1",
+  "SHA256SUMS.txt"
+)) {
+  curl.exe -fsSI "$base/$f" | Select-Object -First 1
+}
+```
+
+Then paste the same URLs into Zolestio **Admin → Releases** for the Windows fields.
+
+### 11.6 Edge cases
+
+| Risk | Mitigation |
+|------|------------|
+| Thin feed points at missing assets | Treat Windows channel as **prepared, not live** until smoke returns HTTP 200 |
+| Checksums wipe Linux entries | Always upload the **merged** `SHA256SUMS.txt` from staging |
+| Portable extracted over install dir | Release notes + INSTALL warn: own empty folder only |
+| Accidental binary commit | `.gitignore` covers `*.exe`, `*.zip`, `staging/`, `windows/v*/` |
 
 ---
 
@@ -325,11 +405,12 @@ Upload the matching `.tar.gz` / `.exe` on the Release **before** flipping `lates
 ```bash
 # --- thin git push ---
 cd Versions-MiniBook3-Downloads
-git add .gitignore README.md docs/
-git commit -m "Docs for GitHub Releases hosting."
+git add .gitignore README.md docs/ RELEASE_NOTES_v1.0.2.md linux/ windows/
+git status   # confirm NO .exe / .zip / .tar.gz
+git commit -m "Windows v1.0.2 thin feed (manifests, install.ps1, checksums)."
 git push
 
-# --- create release + upload (from MiniBook3/release) ---
+# --- create release + upload Linux (from MiniBook3/release) ---
 VER=1.0.2
 SRC="/home/udara/Documents/zolestio/r&d/100_tools_challenge/MiniBook3/release"
 gh release create "v${VER}" \
@@ -338,10 +419,13 @@ gh release create "v${VER}" \
   "$SRC/minibook3-${VER}-linux-x86_64.tar.gz" \
   "$SRC/SHA256SUMS.txt"
 
+# --- add Windows assets later (from staging) ---
+# gh release upload "v${VER}" staging/v${VER}/* --clobber
+
 # --- show download URLs ---
 gh release view "v${VER}" --json assets --jq '.assets[].browserDownloadUrl'
 ```
 
 ---
 
-*Guide for Versions-MiniBook3-Downloads · 2026-07-31*
+*Guide for Versions-MiniBook3-Downloads · updated 2026-08-06 (Windows v1.0.2 thin feed)*

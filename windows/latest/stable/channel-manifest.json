@@ -6,6 +6,11 @@
   "channel": "stable",
   "artifacts": [
     {
+      "kind": "setup",
+      "filename": "minibook3-1.0.2-win64-setup.exe",
+      "url": "https://github.com/ShashikaUdara/MiniBook3-Downloads/releases/download/v1.0.2/minibook3-1.0.2-win64-setup.exe"
+    },
+    {
       "kind": "portable_zip",
       "filename": "minibook3-1.0.2-win64-portable.zip",
       "url": "https://github.com/ShashikaUdara/MiniBook3-Downloads/releases/download/v1.0.2/minibook3-1.0.2-win64-portable.zip"
