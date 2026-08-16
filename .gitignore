@@ -1,3 +1,6 @@
+linux/v1.0.2/*
+docs/feasibility.md
+
 # Never commit installers or unpacked builds
 *.tar.gz
 *.AppImage
@@ -5,11 +8,6 @@
 *.exe
 *.dmg
 *.zip
-
-# Versioned binary staging trees (thin manifests may live under latest/)
-linux/v1.0.2/*
-windows/v*/
-windows/**/minibook3-*-win64-*
 
 # Unpacked PyInstaller / install trees
 **/minibook3-*-linux/
@@ -22,5 +20,3 @@ linux/**/linux/
 .DS_Store
 # Local Release upload tray (binaries)
 staging/
-
-docs/feasibility.md
