@@ -1,0 +1,401 @@
+sku,barcode,name,description,unit_price,tax_rate,tax_inclusive,category,item_type,stock_qty,image_emoji,expiry_date,variant_meta,modifier_hint,rx_flag,low_stock_threshold
+SKU-0001,6000000000001,Smartphone,High-end smartphone with 128GB storage and 5G,499.99,8,false,Electronics,stock,45,📱,,,false,10,
+SKU-0002,6000000000002,Laptop,Lightweight laptop with 16GB RAM and 512GB SSD,899.00,8,false,Electronics,stock,23,💻,,,false,5,
+SKU-0003,6000000000003,Headphones,Noise-cancelling over-ear headphones with 40hr battery,79.99,8,false,Electronics,stock,120,🎧,,,false,20,
+SKU-0004,6000000000004,Smartwatch,Fitness smartwatch with heart rate monitor,199.00,8,false,Electronics,stock,67,⌚,,,false,15,
+SKU-0005,6000000000005,Tablet,10-inch tablet with retina display and stylus support,299.99,8,false,Electronics,stock,34,📟,,,false,10,
+SKU-0006,6000000000006,Power Bank,20000mAh fast-charging portable power bank,29.99,8,false,Electronics,stock,150,🔋,,,false,25,
+SKU-0007,6000000000007,USB Cable,USB-C to Lightning braided cable (1.5m),9.99,8,false,Electronics,stock,310,🔌,,,false,50,
+SKU-0008,6000000000008,Monitor,27-inch 4K UHD monitor with HDR support,249.99,8,false,Electronics,stock,18,🖥️,,,false,5,
+SKU-0009,6000000000009,Keyboard,Mechanical gaming keyboard with RGB backlight,49.99,8,false,Electronics,stock,88,⌨️,,,false,15,
+SKU-0010,6000000000010,Mouse,Wireless ergonomic mouse with silent clicks,19.99,8,false,Electronics,stock,95,🖱️,,,false,20,
+SKU-0011,6000000000011,Webcam,1080p HD webcam with built-in microphone,59.99,8,false,Electronics,stock,42,📷,,,false,10,
+SKU-0012,6000000000012,Router,WiFi 6 dual-band gigabit router,89.99,8,false,Electronics,stock,56,🌐,,,false,10,
+SKU-0013,6000000000013,Smartphone Pro,Pro smartphone with triple camera and 256GB,699.99,8,false,Electronics,stock,28,📱,,,false,8,
+SKU-0014,6000000000014,Gaming Laptop,High-performance gaming laptop with RTX 4060,1299.00,8,false,Electronics,stock,11,💻,,,false,3,
+SKU-0015,6000000000015,Earbuds,True wireless earbuds with noise isolation,49.99,8,false,Electronics,stock,200,🎧,,,false,30,
+SKU-0016,6000000000016,Fitness Tracker,Advanced fitness tracker with GPS and SpO2,149.00,8,false,Electronics,stock,73,⌚,,,false,10,
+SKU-0017,6000000000017,Tablet Pro,12-inch tablet with keyboard dock and pen,449.99,8,false,Electronics,stock,19,📟,,,false,5,
+SKU-0018,6000000000018,Solar Power Bank,26800mAh solar power bank with dual output,39.99,8,false,Electronics,stock,85,🔋,,,false,15,
+SKU-0019,6000000000019,HDMI Cable,High-speed HDMI 2.1 cable (2m),12.99,8,false,Electronics,stock,220,🔌,,,false,40,
+SKU-0020,6000000000020,Curved Monitor,34-inch curved ultra-wide monitor,399.99,8,false,Electronics,stock,14,🖥️,,,false,4,
+SKU-0021,6000000000021,Almond Milk,Unsweetened vanilla almond milk 1L,3.99,0,false,Grocery,stock,85,🥛,2027-03-15,,false,15,
+SKU-0022,6000000000022,Oatmeal,Organic rolled oats 500g,4.49,0,false,Grocery,stock,120,🥣,2027-01-10,,false,20,
+SKU-0023,6000000000023,Coffee Beans,Colombian dark roast coffee beans 1kg,12.99,0,false,Grocery,stock,43,☕,2026-12-01,,false,8,
+SKU-0024,6000000000024,Green Tea,Matcha green tea powder 100g,18.50,0,false,Grocery,stock,67,🍵,2027-05-20,,false,10,
+SKU-0025,6000000000025,Olive Oil,Extra virgin olive oil 500ml,7.49,0,false,Grocery,stock,98,🫒,2027-08-12,,false,15,
+SKU-0026,6000000000026,Honey,Raw organic honey 250g,6.99,0,false,Grocery,stock,76,🍯,2028-02-28,,false,12,
+SKU-0027,6000000000027,Pasta,Whole wheat spaghetti 500g,2.79,0,false,Grocery,stock,230,🍝,2026-11-05,,false,30,
+SKU-0028,6000000000028,Tomato Sauce,Organic tomato basil sauce 680ml,4.29,0,false,Grocery,stock,105,🥫,2027-04-18,,false,20,
+SKU-0029,6000000000029,Peanut Butter,Creamy peanut butter 1kg,6.19,0,false,Grocery,stock,140,🥜,2027-07-22,,false,25,
+SKU-0030,6000000000030,Strawberry Jam,Strawberry preserve with real fruit 340g,5.49,0,false,Grocery,stock,92,🍓,2027-09-09,,false,15,
+SKU-0031,6000000000031,Sourdough Bread,Artisan sourdough loaf 600g,4.99,0,false,Grocery,stock,34,🍞,2026-10-30,,false,10,
+SKU-0032,6000000000032,Free-Range Eggs,12-pack free-range large brown eggs,5.79,0,false,Grocery,stock,61,🥚,2026-11-15,,false,12,
+SKU-0033,6000000000033,Organic Milk,Organic whole milk 1L,3.29,0,false,Grocery,stock,78,🥛,2026-10-28,,false,15,
+SKU-0034,6000000000034,Aged Cheddar,Aged sharp cheddar cheese 200g,6.99,0,false,Grocery,stock,53,🧀,2027-02-14,,false,10,
+SKU-0035,6000000000035,Greek Yogurt,Plain Greek yogurt 500g,4.79,0,false,Grocery,stock,89,🥄,2027-01-05,,false,18,
+SKU-0036,6000000000036,Almond Milk Barista,Barista edition almond milk 1L,4.49,0,false,Grocery,stock,112,🥛,2027-03-20,,false,20,
+SKU-0037,6000000000037,Quinoa,Organic quinoa 500g,7.99,0,false,Grocery,stock,46,🥣,2027-06-11,,false,8,
+SKU-0038,6000000000038,Decaf Coffee,Swiss water decaf coffee beans 500g,11.49,0,false,Grocery,stock,55,☕,2026-12-15,,false,10,
+SKU-0039,6000000000039,Chamomile Tea,Organic chamomile tea bags 20ct,4.99,0,false,Grocery,stock,134,🍵,2027-08-01,,false,20,
+SKU-0040,6000000000040,Balsamic Vinegar,Traditional balsamic vinegar of Modena 250ml,8.99,0,false,Grocery,stock,39,🫒,2027-10-10,,false,5,
+SKU-0041,6000000000041,Shampoo,Moisturizing shampoo for dry hair 500ml,9.99,8,false,Health & Beauty,stock,78,🧴,,,false,15,
+SKU-0042,6000000000042,Conditioner,Repairing conditioner with keratin 500ml,10.99,8,false,Health & Beauty,stock,65,🧴,,,false,12,
+SKU-0043,6000000000043,Body Wash,Refreshing body wash with citrus extract 400ml,6.49,8,false,Health & Beauty,stock,112,🧼,,,false,20,
+SKU-0044,6000000000044,Body Lotion,Shea butter body lotion 300ml,8.79,8,false,Health & Beauty,stock,88,🧴,,,false,15,
+SKU-0045,6000000000045,Sunscreen,SPF 50+ broad-spectrum sunscreen 100ml,14.99,8,false,Health & Beauty,stock,43,☀️,2027-06-30,,false,8,
+SKU-0046,6000000000046,Lip Balm,Natural beeswax lip balm SPF 15,3.49,8,false,Health & Beauty,stock,210,💄,,,false,30,
+SKU-0047,6000000000047,Toothpaste,Whitening toothpaste with fluoride 150ml,4.99,8,false,Health & Beauty,stock,156,🪥,,,false,25,
+SKU-0048,6000000000048,Mouthwash,Alcohol-free antibacterial mouthwash 500ml,5.49,8,false,Health & Beauty,stock,97,🫧,,,false,15,
+SKU-0049,6000000000049,Deodorant,Aluminum-free deodorant stick 75g,6.29,8,false,Health & Beauty,stock,134,🧴,,,false,20,
+SKU-0050,6000000000050,Face Cream,Anti-aging face cream with retinol 50ml,19.99,8,false,Health & Beauty,stock,58,✨,,,false,10,
+SKU-0051,6000000000051,Multivitamins,Daily multivitamin tablets 60ct,15.99,8,false,Health & Beauty,stock,42,💊,2027-12-01,,false,8,
+SKU-0052,6000000000052,Pain Relief,Extra strength ibuprofen 200mg 100ct,12.49,8,false,Health & Beauty,stock,36,💊,2027-09-15,,false,5,
+SKU-0053,6000000000053,Dry Shampoo,Volumizing dry shampoo for dark hair 200ml,8.99,8,false,Health & Beauty,stock,73,🧴,,,false,12,
+SKU-0054,6000000000054,Hair Mask,Intensive repair hair mask 250ml,12.99,8,false,Health & Beauty,stock,51,🧴,,,false,10,
+SKU-0055,6000000000055,Foam Cleanser,Gentle facial foam cleanser 150ml,7.49,8,false,Health & Beauty,stock,89,🧼,,,false,15,
+SKU-0056,6000000000056,Eye Cream,Hyaluronic acid eye cream 15ml,16.49,8,false,Health & Beauty,stock,47,✨,,,false,8,
+SKU-0057,6000000000057,Mineral Sunscreen,Mineral sunscreen lotion SPF 30 150ml,18.99,8,false,Health & Beauty,stock,31,☀️,2027-05-20,,false,5,
+SKU-0058,6000000000058,Lip Scrub,Sugar lip scrub with vitamin E,4.99,8,false,Health & Beauty,stock,124,💄,,,false,20,
+SKU-0059,6000000000059,Floss,Expanding dental floss 50m,3.79,8,false,Health & Beauty,stock,205,🪥,,,false,30,
+SKU-0060,6000000000060,Hand Sanitizer,Aloe vera hand sanitizer gel 300ml,4.29,8,false,Health & Beauty,stock,177,🧴,,,false,25,
+SKU-0061,6000000000061,Blender,High-speed blender for smoothies and soups,89.99,8,false,Home & Kitchen,stock,32,🥤,,,false,5,
+SKU-0062,6000000000062,Toaster,4-slice stainless steel toaster with bagel setting,49.99,8,false,Home & Kitchen,stock,56,🍞,,,false,10,
+SKU-0063,6000000000063,Knife Set,Professional chef's knife set with block,129.99,8,false,Home & Kitchen,stock,24,🔪,,,false,5,
+SKU-0064,6000000000064,Cutting Board,Wooden cutting board with juice groove,29.99,8,false,Home & Kitchen,stock,67,🪵,,,false,12,
+SKU-0065,6000000000065,Stainless Pot,Stainless steel stockpot 8qt,39.99,8,false,Home & Kitchen,stock,43,🍳,,,false,8,
+SKU-0066,6000000000066,Non-Stick Pan,12-inch non-stick frying pan with lid,34.99,8,false,Home & Kitchen,stock,81,🍳,,,false,15,
+SKU-0067,6000000000067,Coffee Maker,12-cup programmable drip coffee maker,79.99,8,false,Home & Kitchen,stock,28,☕,,,false,5,
+SKU-0068,6000000000068,Electric Kettle,Stainless steel electric kettle 1.7L,44.99,8,false,Home & Kitchen,stock,74,🫖,,,false,10,
+SKU-0069,6000000000069,Hand Mixer,5-speed electric hand mixer with whisk attachments,29.49,8,false,Home & Kitchen,stock,52,🥣,,,false,8,
+SKU-0070,6000000000070,Kitchen Scale,Digital kitchen scale with LCD display,19.99,8,false,Home & Kitchen,stock,95,⚖️,,,false,15,
+SKU-0071,6000000000071,Storage Containers,18-piece food storage containers with lids,24.99,8,false,Home & Kitchen,stock,112,📦,,,false,20,
+SKU-0072,6000000000072,Vacuum Cleaner,Cordless stick vacuum with HEPA filter,159.99,8,false,Home & Kitchen,stock,17,🧹,,,false,3,
+SKU-0073,6000000000073,Air Fryer,5.8qt air fryer with 8 presets,99.99,8,false,Home & Kitchen,stock,38,🥤,,,false,6,
+SKU-0074,6000000000074,Tea Infuser,Glass tea infuser bottle 500ml,13.99,8,false,Home & Kitchen,stock,68,🫖,,,false,10,
+SKU-0075,6000000000075,Cast Iron Skillet,Pre-seasoned cast iron skillet 12-inch,39.99,8,false,Home & Kitchen,stock,59,🍳,,,false,10,
+SKU-0076,6000000000076,Coffee Grinder,Conical burr coffee grinder adjustable settings,54.99,8,false,Home & Kitchen,stock,44,☕,,,false,8,
+SKU-0077,6000000000077,Microwave,1.2 cu ft microwave oven with sensor cooking,109.99,8,false,Home & Kitchen,stock,21,🧹,,,false,5,
+SKU-0078,6000000000078,Cutting Board Set,3-piece bamboo cutting board set,19.99,8,false,Home & Kitchen,stock,108,🪵,,,false,20,
+SKU-0079,6000000000079,Measuring Cups,Stainless steel measuring cup set 6pc,12.49,8,false,Home & Kitchen,stock,142,⚖️,,,false,25,
+SKU-0080,6000000000080,Slow Cooker,6-quart programmable slow cooker,49.99,8,false,Home & Kitchen,stock,35,🍳,,,false,8,
+SKU-0081,6000000000081,T-Shirt,Cotton crewneck t-shirt (pack of 2),24.99,8,false,Clothing,stock,134,👕,"Size: M, Color: White",,false,20,
+SKU-0082,6000000000082,Jeans,Slim fit stretch denim jeans,49.99,8,false,Clothing,stock,67,👖,"Size: 32x32, Color: Blue",,false,10,
+SKU-0083,6000000000083,Winter Jacket,Insulated waterproof winter jacket,89.99,8,false,Clothing,stock,28,🧥,"Size: L, Color: Black",,false,5,
+SKU-0084,6000000000084,Sneakers,Athletic running sneakers with cushioned sole,69.99,8,false,Clothing,stock,45,👟,"Size: 10, Color: Gray",,false,8,
+SKU-0085,6000000000085,Sandals,Comfortable slide sandals with arch support,29.99,8,false,Clothing,stock,56,👡,"Size: 9, Color: Brown",,false,10,
+SKU-0086,6000000000086,Baseball Cap,Cotton adjustable baseball cap,19.99,8,false,Clothing,stock,178,🧢,Color: Red,,false,30,
+SKU-0087,6000000000087,Ankle Socks,Moisture-wicking ankle socks (6 pairs),14.99,8,false,Clothing,stock,210,🧦,"Size: 6-10, Color: Assorted",,false,40,
+SKU-0088,6000000000088,Scarf,Wool blend warm scarf with fringe,24.99,8,false,Clothing,stock,89,🧣,Color: Charcoal,,false,15,
+SKU-0089,6000000000089,Leather Gloves,Touchscreen compatible leather gloves,34.99,8,false,Clothing,stock,62,🧤,"Size: M, Color: Black",,false,10,
+SKU-0090,6000000000090,Belt,Classic leather belt with brass buckle,19.99,8,false,Clothing,stock,74,🎀,"Size: 36, Color: Brown",,false,12,
+SKU-0091,6000000000091,T-Shirt Pack,5-pack cotton crewneck t-shirts,39.99,8,false,Clothing,stock,98,👕,"Size: XL, Color: Assorted",,false,15,
+SKU-0092,6000000000092,Chinos,Stretch chino pants with tapered fit,44.99,8,false,Clothing,stock,53,👖,"Size: 34x30, Color: Khaki",,false,10,
+SKU-0093,6000000000093,Windbreaker,Lightweight windbreaker jacket,59.99,8,false,Clothing,stock,37,🧥,"Size: S, Color: Navy",,false,6,
+SKU-0094,6000000000094,Running Shoes,Lightweight running shoes with mesh upper,79.99,8,false,Clothing,stock,41,👟,"Size: 8.5, Color: Black",,false,8,
+SKU-0095,6000000000095,Flip Flops,Classic flip flops with cushioned footbed,14.99,8,false,Clothing,stock,112,👡,"Size: 11, Color: Black",,false,20,
+SKU-0096,6000000000096,Beanie,Warm knit beanie with pom-pom,16.99,8,false,Clothing,stock,87,🧢,Color: Burgundy,,false,15,
+SKU-0097,6000000000097,Crew Socks,Crew length wool blend socks (3 pairs),18.99,8,false,Clothing,stock,142,🧦,"Size: 9-12, Color: Gray",,false,25,
+SKU-0098,6000000000098,Blanket Scarf,Oversized blanket scarf with plaid pattern,29.99,8,false,Clothing,stock,44,🧣,Color: Camel,,false,8,
+SKU-0099,6000000000099,Driving Gloves,Perforated leather driving gloves,27.99,8,false,Clothing,stock,55,🧤,"Size: L, Color: Tan",,false,10,
+SKU-0100,6000000000100,Elastic Belt,Stretch elastic belt with metal buckle,15.99,8,false,Clothing,stock,68,🎀,"Size: M, Color: Black",,false,12,
+SKU-0101,6000000000101,Yoga Mat,Non-slip exercise yoga mat 6mm thick,24.99,8,false,Sports,stock,98,🧘,,,false,15,
+SKU-0102,6000000000102,Dumbbell Set,Adjustable dumbbell set 50lbs total,89.99,8,false,Sports,stock,34,🏋️,,,false,5,
+SKU-0103,6000000000103,Water Bottle,Insulated stainless steel water bottle 1L,22.99,8,false,Sports,stock,156,💧,,,false,25,
+SKU-0104,6000000000104,Tennis Balls,3-pack premium tennis balls with case,7.99,8,false,Sports,stock,210,🎾,,,false,30,
+SKU-0105,6000000000105,Soccer Ball,Size 5 official match soccer ball,34.99,8,false,Sports,stock,67,⚽,,,false,10,
+SKU-0106,6000000000106,Jump Rope,Adjustable speed jump rope with ball bearings,12.99,8,false,Sports,stock,132,🏃,,,false,20,
+SKU-0107,6000000000107,Backpack,Waterproof hiking backpack 40L,54.99,8,false,Sports,stock,45,🎒,,,false,8,
+SKU-0108,6000000000108,Hiking Boots,Waterproof leather hiking boots with ankle support,99.99,8,false,Sports,stock,28,🥾,"Size: 9, Color: Brown",,false,5,
+SKU-0109,6000000000109,Resistance Bands,Set of 5 resistance bands with handles,19.99,8,false,Sports,stock,84,🏋️,,,false,12,
+SKU-0110,6000000000110,Gym Gloves,Padded weightlifting gloves with wrist support,14.99,8,false,Sports,stock,77,🧤,"Size: M, Color: Black",,false,10,
+SKU-0111,6000000000111,Exercise Ball,Anti-burst exercise ball 65cm,29.99,8,false,Sports,stock,41,🧘,,,false,8,
+SKU-0112,6000000000112,Running Belt,Reflective running belt with zippered pockets,16.99,8,false,Sports,stock,93,🏃,,,false,15,
+SKU-0113,6000000000113,Yoga Blocks,2-pack high-density foam yoga blocks,13.99,8,false,Sports,stock,115,🧘,,,false,20,
+SKU-0114,6000000000114,Kettlebell,Cast iron kettlebell 20kg,49.99,8,false,Sports,stock,29,🏋️,,,false,5,
+SKU-0115,6000000000115,Insulated Bottle,Double-wall vacuum insulated water bottle 750ml,26.99,8,false,Sports,stock,88,💧,,,false,15,
+SKU-0116,6000000000116,Badminton Set,Portable badminton set with net and rackets,39.99,8,false,Sports,stock,52,🎾,,,false,8,
+SKU-0117,6000000000117,Ankle Weights,Adjustable ankle weights 2kg pair,18.99,8,false,Sports,stock,63,🏋️,,,false,10,
+SKU-0118,6000000000118,Cycling Gloves,Gel-padded cycling gloves,21.99,8,false,Sports,stock,45,🧤,"Size: L, Color: Blue",,false,8,
+SKU-0119,6000000000119,Shin Guards,Adult shin guards for soccer with straps,27.99,8,false,Sports,stock,36,⚽,Size: M,,false,6,
+SKU-0120,6000000000120,Gym Towel,Microfiber gym towel quick-dry,11.99,8,false,Sports,stock,178,🧘,,,false,30,
+SKU-0121,6000000000121,Lego Set,Building brick set 500 pieces,49.99,8,false,Toys,stock,38,🧱,,,false,8,
+SKU-0122,6000000000122,Fashion Doll,Fashion doll with 10 outfits and accessories,24.99,8,false,Toys,stock,56,🎎,,,false,10,
+SKU-0123,6000000000123,Action Figure,Collectible superhero action figure with accessories,19.99,8,false,Toys,stock,77,🦸,,,false,12,
+SKU-0124,6000000000124,Puzzle,1000-piece jigsaw puzzle with cityscape,14.99,8,false,Toys,stock,92,🧩,,,false,15,
+SKU-0125,6000000000125,Board Game,Strategy board game for 2-6 players,34.99,8,false,Toys,stock,44,🎲,,,false,8,
+SKU-0126,6000000000126,Plush Bear,Soft plush teddy bear 45cm,16.99,8,false,Toys,stock,123,🧸,,,false,20,
+SKU-0127,6000000000127,Race Car,Radio control race car 1:18 scale,39.99,8,false,Toys,stock,29,🚗,,,false,5,
+SKU-0128,6000000000128,Gaming Controller,Wireless gaming controller for PC/console,49.99,8,false,Toys,stock,65,🎮,,,false,10,
+SKU-0129,6000000000129,Building Blocks,Creative building blocks set 200 pieces,29.99,8,false,Toys,stock,47,🧱,,,false,8,
+SKU-0130,6000000000130,Baby Doll,Interactive baby doll with accessories,32.99,8,false,Toys,stock,51,🎎,,,false,10,
+SKU-0131,6000000000131,Marvel Figure,Marvel action figure with movable joints,22.99,8,false,Toys,stock,68,🦸,,,false,12,
+SKU-0132,6000000000132,3D Puzzle,3D wooden puzzle model kit,18.99,8,false,Toys,stock,74,🧩,,,false,12,
+SKU-0133,6000000000133,Card Game,Collectible card game booster pack,9.99,8,false,Toys,stock,155,🎲,,,false,25,
+SKU-0134,6000000000134,Stuffed Unicorn,Plush unicorn 30cm with rainbow mane,19.99,8,false,Toys,stock,88,🧸,,,false,15,
+SKU-0135,6000000000135,Drone Toy,Mini drone with camera and altitude hold,59.99,8,false,Toys,stock,23,🚗,,,false,5,
+SKU-0136,6000000000136,Virtual Reality Headset,VR headset for smartphone 3D viewing,29.99,8,false,Toys,stock,41,🎮,,,false,8,
+SKU-0137,6000000000137,Educational Toy,STEM learning kit for kids 6+,44.99,8,false,Toys,stock,36,🧱,,,false,6,
+SKU-0138,6000000000138,Princess Castle,Princess castle play set with furniture,38.99,8,false,Toys,stock,28,🎎,,,false,5,
+SKU-0139,6000000000139,RC Helicopter,Remote control helicopter with gyro,42.99,8,false,Toys,stock,19,🚗,,,false,4,
+SKU-0140,6000000000140,Puzzle Mat,Jigsaw puzzle mat with roll-up tube,13.99,8,false,Toys,stock,62,🧩,,,false,10,
+SKU-0141,6000000000141,Novel,Bestselling fiction novel - 400 pages,14.99,0,false,Books,stock,112,📚,,,false,20,
+SKU-0142,6000000000142,Cookbook,Comprehensive cookbook with 500 recipes,29.99,0,false,Books,stock,45,📘,,,false,8,
+SKU-0143,6000000000143,Notebook,Hardcover ruled notebook 240 pages,9.99,0,false,Books,stock,178,📓,,,false,30,
+SKU-0144,6000000000144,Dictionary,English dictionary with 200000 entries,24.99,0,false,Books,stock,34,📖,,,false,6,
+SKU-0145,6000000000145,Art Book,Collection of fine art prints and commentary,39.99,0,false,Books,stock,21,🎨,,,false,5,
+SKU-0146,6000000000146,Science Fiction Novel,Space opera sci-fi novel - 450 pages,16.99,0,false,Books,stock,87,📚,,,false,15,
+SKU-0147,6000000000147,Baking Cookbook,Sweet and savory baking recipes,27.99,0,false,Books,stock,52,📘,,,false,10,
+SKU-0148,6000000000148,Spiral Notebook,A5 spiral notebook with dotted pages,7.99,0,false,Books,stock,220,📓,,,false,40,
+SKU-0149,6000000000149,Thesaurus,Comprehensive thesaurus with synonyms,22.49,0,false,Books,stock,28,📖,,,false,5,
+SKU-0150,6000000000150,Sculpture Art Book,Modern sculpture art book with photos,44.99,0,false,Books,stock,17,🎨,,,false,3,
+SKU-0151,6000000000151,Romance Novel,Contemporary romance novel - 380 pages,13.99,0,false,Books,stock,104,📚,,,false,18,
+SKU-0152,6000000000152,Healthy Recipes,Plant-based healthy cooking guide,24.99,0,false,Books,stock,37,📘,,,false,6,
+SKU-0153,6000000000153,Travel Journal,Leather-bound travel journal 160 pages,12.99,0,false,Books,stock,91,📓,,,false,15,
+SKU-0154,6000000000154,Encyclopedia,Encyclopedia of natural history,49.99,0,false,Books,stock,15,📖,,,false,3,
+SKU-0155,6000000000155,Watercolor Art Book,Watercolor painting techniques book,31.99,0,false,Books,stock,23,🎨,,,false,5,
+SKU-0156,6000000000156,Mystery Novel,Gripping mystery thriller novel - 350 pages,15.99,0,false,Books,stock,76,📚,,,false,12,
+SKU-0157,6000000000157,Vegetarian Cookbook,Vegetarian recipes for every season,26.99,0,false,Books,stock,49,📘,,,false,8,
+SKU-0158,6000000000158,Composition Book,Primary composition book 100 pages,5.49,0,false,Books,stock,154,📓,,,false,25,
+SKU-0159,6000000000159,English Grammar,Grammar and punctuation reference guide,18.99,0,false,Books,stock,32,📖,,,false,6,
+SKU-0160,6000000000160,Impressionist Art,Impressionist paintings collection,42.99,0,false,Books,stock,19,🎨,,,false,4,
+SKU-0161,6000000000161,Gel Pen,Set of 12 colorful gel pens,7.99,8,false,Office Supplies,stock,210,🖊️,,,false,30,
+SKU-0162,6000000000162,Mechanical Pencil,0.7mm mechanical pencil with eraser,4.49,8,false,Office Supplies,stock,190,✏️,,,false,25,
+SKU-0163,6000000000163,Printer Paper,500-sheet ream of A4 printer paper 80gsm,11.99,8,false,Office Supplies,stock,87,📄,,,false,15,
+SKU-0164,6000000000164,Stapler,Heavy-duty stapler with 1000 staples,12.99,8,false,Office Supplies,stock,64,📎,,,false,10,
+SKU-0165,6000000000165,Scotch Tape,60mm x 50m clear office tape,3.99,8,false,Office Supplies,stock,245,📏,,,false,40,
+SKU-0166,6000000000166,Scissors,"Stainless steel office scissors 8""",6.49,8,false,Office Supplies,stock,105,✂️,,,false,18,
+SKU-0167,6000000000167,3-Ring Binder,2-inch D-ring binder with view cover,8.99,8,false,Office Supplies,stock,78,📁,,,false,12,
+SKU-0168,6000000000168,Whiteboard Marker,Dry erase markers 4-pack assorted colors,6.99,8,false,Office Supplies,stock,134,🖍️,,,false,20,
+SKU-0169,6000000000169,Highlighter,Set of 5 fluorescent highlighters,5.49,8,false,Office Supplies,stock,159,🖍️,,,false,25,
+SKU-0170,6000000000170,Tape Dispenser,Heavy-duty tape dispenser with weight,9.99,8,false,Office Supplies,stock,58,📏,,,false,10,
+SKU-0171,6000000000171,Staple Remover,Compact staple remover with grips,3.29,8,false,Office Supplies,stock,182,📎,,,false,30,
+SKU-0172,6000000000172,Notepad,Sticky note pad 3x3 100 sheets,4.79,8,false,Office Supplies,stock,225,📄,,,false,35,
+SKU-0173,6000000000173,Ruler,12-inch clear plastic ruler with markings,2.99,8,false,Office Supplies,stock,198,📏,,,false,30,
+SKU-0174,6000000000174,Pen Holder,Desk organizer pen cup with dividers,7.49,8,false,Office Supplies,stock,86,🖊️,,,false,12,
+SKU-0175,6000000000175,Correction Tape,White correction tape 5m x 5mm,3.99,8,false,Office Supplies,stock,142,✏️,,,false,20,
+SKU-0176,6000000000176,File Folder,Manila file folders 100-pack,13.99,8,false,Office Supplies,stock,67,📁,,,false,10,
+SKU-0177,6000000000177,Marker Set,Fine tip permanent markers 8-color set,8.99,8,false,Office Supplies,stock,93,🖍️,,,false,15,
+SKU-0178,6000000000178,Desk Lamp,LED desk lamp with adjustable arm,24.99,8,false,Office Supplies,stock,41,📁,,,false,8,
+SKU-0179,6000000000179,Paper Clips,1000-count jumbo paper clips,6.29,8,false,Office Supplies,stock,176,📎,,,false,25,
+SKU-0180,6000000000180,Label Maker,Handheld label maker with tape,19.99,8,false,Office Supplies,stock,35,📄,,,false,6,
+SKU-0181,6000000000181,Dog Food,Premium dry dog food 5kg,27.99,8,false,Pet Supplies,stock,54,🐶,2027-08-15,,false,10,
+SKU-0182,6000000000182,Cat Food,Grain-free wet cat food 24-pack,21.99,8,false,Pet Supplies,stock,68,🐱,2027-07-01,,false,12,
+SKU-0183,6000000000183,Leash,Retractable dog leash with brake 5m,16.99,8,false,Pet Supplies,stock,92,🦮,,,false,15,
+SKU-0184,6000000000184,Collar,Adjustable nylon dog collar with buckle,9.99,8,false,Pet Supplies,stock,123,🐕,"Size: M, Color: Red",,false,20,
+SKU-0185,6000000000185,Pet Bed,Orthopedic pet bed with removable cover,39.99,8,false,Pet Supplies,stock,31,🛏️,"Size: L, Color: Gray",,false,5,
+SKU-0186,6000000000186,Chew Toy,Durable chew toy for aggressive chewers,12.99,8,false,Pet Supplies,stock,147,🎾,,,false,25,
+SKU-0187,6000000000187,Pet Brush,Self-cleaning slicker brush for shedding,14.49,8,false,Pet Supplies,stock,88,🪥,,,false,15,
+SKU-0188,6000000000188,Cat Litter,Clumping unscented cat litter 10kg,18.99,8,false,Pet Supplies,stock,62,🐱,2027-12-10,,false,10,
+SKU-0189,6000000000189,Dog Treats,Natural chicken dog treats 500g,8.99,8,false,Pet Supplies,stock,134,🐶,2027-09-20,,false,20,
+SKU-0190,6000000000190,Pet Carrier,Soft-sided pet carrier with mesh,32.99,8,false,Pet Supplies,stock,27,🐕,,,false,5,
+SKU-0191,6000000000191,Food Bowl,Stainless steel pet food bowl 2-pack,13.99,8,false,Pet Supplies,stock,105,🐶,,,false,18,
+SKU-0192,6000000000192,Cat Toy,Interactive cat toy with feather wand,9.49,8,false,Pet Supplies,stock,156,🐱,,,false,25,
+SKU-0193,6000000000193,Dog Shampoo,Hypoallergenic dog shampoo 500ml,12.49,8,false,Pet Supplies,stock,76,🪥,,,false,12,
+SKU-0194,6000000000194,Puppy Pads,Training puppy pads 50-pack,17.99,8,false,Pet Supplies,stock,45,🐶,2027-10-05,,false,8,
+SKU-0195,6000000000195,Bird Seed,Wild bird seed mix 5kg,11.99,8,false,Pet Supplies,stock,33,🐦,2027-11-15,,false,6,
+SKU-0196,6000000000196,Fish Food,Tropical fish flakes 100g,5.99,8,false,Pet Supplies,stock,89,🐟,2027-08-25,,false,15,
+SKU-0197,6000000000197,Catnip,Organic catnip refill 50g,6.49,8,false,Pet Supplies,stock,112,🐱,2027-06-20,,false,20,
+SKU-0198,6000000000198,Harness,No-pull dog harness with reflective strips,22.99,8,false,Pet Supplies,stock,51,🦮,"Size: M, Color: Blue",,false,10,
+SKU-0199,6000000000199,Pet Wipes,Gentle pet wipes 100ct,8.49,8,false,Pet Supplies,stock,97,🪥,,,false,15,
+SKU-0200,6000000000200,Dog Bed,Cushioned dog bed for small breeds,29.99,8,false,Pet Supplies,stock,38,🛏️,"Size: S, Color: Beige",,false,6,
+SKU-0201,60000000000201,Device Setup,Professional device setup and account configuration,29.99,8,false,Services,non_stock,0,✨,,,,false,0
+SKU-0202,60000000000202,Home Installation,On-site product installation visit,79.00,8,false,Services,non_stock,0,🏠,,,,false,0
+SKU-0203,60000000000203,Extended Warranty 1Y,One-year extended warranty plan,49.99,8,false,Support,non_stock,0,🛡️,,,,false,0
+SKU-0204,60000000000204,Extended Warranty 2Y,Two-year extended warranty plan,89.99,8,false,Support,non_stock,0,🛡️,,,,false,0
+SKU-0205,60000000000205,Software License Pro,Annual pro software license,199.00,8,false,Digital,non_stock,0,💿,,,,false,0
+SKU-0206,60000000000206,Cloud Backup Plan,Monthly cloud backup subscription,9.99,8,false,Digital,non_stock,0,☁️,,,,false,0
+SKU-0207,60000000000207,Data Recovery Service,Professional data recovery service,149.00,8,false,Services,non_stock,0,🔐,,,,false,0
+SKU-0208,60000000000208,PC Tune-Up,Performance optimization and cleanup,59.00,8,false,Services,non_stock,0,⚡,,,,false,0
+SKU-0209,60000000000209,Virus Removal,Malware scan and removal service,45.00,8,false,Services,non_stock,0,🦠,,,,false,0
+SKU-0210,60000000000210,Network Setup,WiFi and router configuration,65.00,8,false,Services,non_stock,0,📶,,,,false,0
+SKU-0211,60000000000211,Smart Home Setup,Smart device pairing and automation,99.00,8,false,Services,non_stock,0,🏡,,,,false,0
+SKU-0212,60000000000212,Gift Wrapping,Premium gift wrapping service,5.99,8,false,Services,non_stock,0,🎁,,,,false,0
+SKU-0213,60000000000213,Personal Shopping,One-hour personal shopping session,35.00,8,false,Services,non_stock,0,🛍️,,,,false,0
+SKU-0214,60000000000214,Alteration Service,Basic garment alteration,18.00,8,false,Services,non_stock,0,✂️,,,,false,0
+SKU-0215,60000000000215,Tailoring Consult,Custom tailoring consultation,25.00,8,false,Services,non_stock,0,📐,,,,false,0
+SKU-0216,60000000000216,Delivery Fee Standard,Standard local delivery charge,7.99,8,false,Services,non_stock,0,🚚,,,,false,0
+SKU-0217,60000000000217,Delivery Fee Express,Same-day express delivery,14.99,8,false,Services,non_stock,0,🚀,,,,false,0
+SKU-0218,60000000000218,Assembly Service,Furniture assembly labour,55.00,8,false,Services,non_stock,0,🔩,,,,false,0
+SKU-0219,60000000000219,Training Session 1H,One-hour product training,75.00,8,false,Professional Services,non_stock,0,🎓,,,,false,0
+SKU-0220,60000000000220,Training Session 4H,Half-day team training,249.00,8,false,Professional Services,non_stock,0,🎓,,,,false,0
+SKU-0221,60000000000221,Business Consultation,Retail operations consultation,120.00,8,false,Professional Services,non_stock,0,💼,,,,false,0
+SKU-0222,60000000000222,Bookkeeping Setup,POS and inventory setup help,95.00,8,false,Professional Services,non_stock,0,📊,,,,false,0
+SKU-0223,60000000000223,Menu Design Service,Digital menu board design,180.00,8,false,Professional Services,non_stock,0,🍽️,,,,false,0
+SKU-0224,60000000000224,Photography Package,Product photography mini session,150.00,8,false,Professional Services,non_stock,0,📸,,,,false,0
+SKU-0225,60000000000225,SEO Starter Pack,Local SEO setup for shop,199.00,8,false,Digital,non_stock,0,🔍,,,,false,0
+SKU-0226,60000000000226,Email Marketing Setup,Newsletter and campaign setup,129.00,8,false,Digital,non_stock,0,📧,,,,false,0
+SKU-0227,60000000000227,POS Support Call,Remote POS troubleshooting,39.00,8,false,Support,non_stock,0,📞,,,,false,0
+SKU-0228,60000000000228,Priority Support Annual,Annual priority support plan,299.00,8,false,Support,non_stock,0,⭐,,,,false,0
+SKU-0229,60000000000229,Screen Repair Quote,Device screen repair assessment,19.00,8,false,Services,non_stock,0,📱,,,,false,0
+SKU-0230,60000000000230,Battery Replacement Labour,Labour for battery swap,29.00,8,false,Services,non_stock,0,🔋,,,,false,0
+SKU-0231,60000000000231,Engraving Service,Personalized engraving per item,12.00,8,false,Services,non_stock,0,✍️,,,,false,0
+SKU-0232,60000000000232,Monogram Service,Monogram embroidery service,15.00,8,false,Services,non_stock,0,🪡,,,,false,0
+SKU-0233,60000000000233,Gift Card Digital,Digital gift card issuance,0.00,8,false,Digital,non_stock,0,💳,,,,false,0
+SKU-0234,60000000000234,Membership Annual,Store membership annual fee,49.00,8,false,Digital,non_stock,0,🎫,,,,false,0
+SKU-0235,60000000000235,Loyalty Points Top-Up,Bonus loyalty points package,10.00,8,false,Digital,non_stock,0,⭐,,,,false,0
+SKU-0236,60000000000236,Return Processing Fee,Special return handling fee,8.00,8,false,Services,non_stock,0,↩️,,,,false,0
+SKU-0237,60000000000237,Custom Quote Deposit,Deposit for custom order quote,50.00,8,false,Custom,non_stock,0,📝,,,,false,0
+SKU-0238,60000000000238,Rush Order Fee,Priority production surcharge,35.00,8,false,Custom,non_stock,0,⏱️,,,,false,0
+SKU-0239,60000000000239,Design Revision,Additional design revision round,45.00,8,false,Professional Services,non_stock,0,🎨,,,,false,0
+SKU-0240,60000000000240,Site Survey,Pre-installation site survey,85.00,8,false,Services,non_stock,0,📋,,,,false,0
+SKU-0241,60000000000241,Custom Kitchen Cabinet,Bespoke kitchen cabinet unit in production,850.00,8,false,Custom Furniture,wip,2,🔧,,,,false,2
+SKU-0242,60000000000242,Custom Wardrobe,Built-in wardrobe awaiting final finish,1200.00,8,false,Custom Furniture,wip,1,🚪,,,,false,2
+SKU-0243,60000000000243,Engraved Plaque,Brass plaque engraving in progress,45.00,8,false,Custom,wip,5,🏅,,,,false,2
+SKU-0244,60000000000244,Tailored Blazer,Custom-fit blazer mid alteration,220.00,8,false,Apparel Custom,wip,3,🧥,,,,false,2
+SKU-0245,60000000000245,Tailored Dress,Evening dress fitting stage,180.00,8,false,Apparel Custom,wip,2,👗,,,,false,2
+SKU-0246,60000000000246,Custom Sofa Frame,Sofa frame assembly in workshop,650.00,8,false,Custom Furniture,wip,1,🛋️,,,,false,2
+SKU-0247,60000000000247,Bespoke Ring Setting,Jewellery setting awaiting stone,320.00,8,false,Jewellery Custom,wip,2,💍,,,,false,2
+SKU-0248,60000000000248,Custom PC Build,Gaming PC build in assembly,1499.00,8,false,Electronics Custom,wip,4,🖥️,,,,false,2
+SKU-0249,60000000000249,Sign Board Fabrication,Shop sign partially fabricated,380.00,8,false,Signage,wip,2,🪧,,,,false,2
+SKU-0250,60000000000250,Upholstery Refresh,Chair reupholstery in progress,95.00,8,false,Workshop,wip,6,🪑,,,,false,2
+SKU-0251,60000000000251,Paint Mix Custom,Custom colour paint mix batch,28.00,8,false,Workshop,wip,8,🎨,,,,false,2
+SKU-0252,60000000000252,Window Frame Order,Made-to-measure window frame,410.00,8,false,Custom Furniture,wip,2,🪟,,,,false,2
+SKU-0253,60000000000253,Stair Railing Custom,Custom stair railing fabrication,720.00,8,false,Custom Furniture,wip,1,🪜,,,,false,2
+SKU-0254,60000000000254,Kitchen Countertop,Quartz countertop fabrication,980.00,8,false,Custom Furniture,wip,1,🍳,,,,false,2
+SKU-0255,60000000000255,Bathroom Vanity,Custom vanity unit in build,540.00,8,false,Custom Furniture,wip,2,🚿,,,,false,2
+SKU-0256,60000000000256,Bookshelf Built-In,Wall bookshelf construction,460.00,8,false,Custom Furniture,wip,3,📚,,,,false,2
+SKU-0257,60000000000257,Garden Bench Custom,Teak garden bench in progress,290.00,8,false,Outdoor Custom,wip,2,🌳,,,,false,2
+SKU-0258,60000000000258,Gate Fabrication,Decorative metal gate build,520.00,8,false,Outdoor Custom,wip,1,🚧,,,,false,2
+SKU-0259,60000000000259,Bike Custom Build,Custom bicycle assembly,890.00,8,false,Sports Custom,wip,2,🚲,,,,false,2
+SKU-0260,60000000000260,Guitar Setup Custom,Custom guitar setup and mods,175.00,8,false,Music Custom,wip,4,🎸,,,,false,2
+SKU-0261,60000000000261,Cake Decor Tier 3,Three-tier wedding cake in progress,240.00,8,false,Bakery Custom,wip,3,🎂,,,,false,2
+SKU-0262,60000000000262,Cake Decor Tier 2,Two-tier celebration cake WIP,120.00,8,false,Bakery Custom,wip,5,🧁,,,,false,2
+SKU-0263,60000000000263,Embroidery Batch,Logo embroidery batch processing,65.00,8,false,Apparel Custom,wip,12,🧵,,,,false,2
+SKU-0264,60000000000264,Screen Print Batch,T-shirt screen print run,48.00,8,false,Apparel Custom,wip,15,👕,,,,false,2
+SKU-0265,60000000000265,3D Print Prototype,Product prototype 3D printing,85.00,8,false,Prototyping,wip,6,🖨️,,,,false,2
+SKU-0266,60000000000266,CNC Milled Part,CNC machined component batch,130.00,8,false,Prototyping,wip,4,⚙️,,,,false,2
+SKU-0267,60000000000267,Leather Wallet Custom,Hand-stitched wallet in progress,55.00,8,false,Leather Custom,wip,7,👛,,,,false,2
+SKU-0268,60000000000268,Leather Belt Custom,Custom belt cutting stage,42.00,8,false,Leather Custom,wip,8,👔,,,,false,2
+SKU-0269,60000000000269,Gift Hamper Assembly,Curated hamper being packed,75.00,8,false,Gifts Custom,wip,9,🧺,,,,false,2
+SKU-0270,60000000000270,Corporate Hamper WIP,Corporate gift box assembly,110.00,8,false,Gifts Custom,wip,5,🎁,,,,false,2
+SKU-0271,60000000000271,Florist Arrangement,Custom bouquet in preparation,38.00,8,false,Florist,wip,10,💐,,,,false,2
+SKU-0272,60000000000272,Wedding Arrangement,Wedding centrepiece WIP,95.00,8,false,Florist,wip,4,💒,,,,false,2
+SKU-0273,60000000000273,Neon Sign Custom,Custom neon sign fabrication,560.00,8,false,Signage,wip,1,💡,,,,false,2
+SKU-0274,60000000000274,Vehicle Wrap Partial,Partial vehicle wrap in progress,680.00,8,false,Automotive Custom,wip,1,🚗,,,,false,2
+SKU-0275,60000000000275,Lens Prescription Cut,Prescription lens cutting batch,35.00,8,false,Optical Custom,wip,14,👓,,,,false,2
+SKU-0276,60000000000276,Frame Assembly Optical,Eyewear frame assembly WIP,28.00,8,false,Optical Custom,wip,11,🕶️,,,,false,2
+SKU-0277,60000000000277,Hearing Aid Fit,Hearing aid custom fitting WIP,190.00,8,false,Medical Custom,wip,2,👂,,,,false,2
+SKU-0278,60000000000278,Orthotic Mold,Custom orthotic mold processing,145.00,8,false,Medical Custom,wip,3,🦶,,,,false,2
+SKU-0279,60000000000279,Dental Mold Custom,Dental impression processing,88.00,8,false,Medical Custom,wip,4,🦷,,,,false,2
+SKU-0280,60000000000280,Appliance Mod Kit,Appliance modification kit build,72.00,8,false,Workshop,wip,5,🔌,,,,false,2
+SKU-0281,60000000000281,Cotton Fabric Roll,Unbleached cotton fabric roll 50m,89.00,8,false,Materials,raw_material,18,🧵,,,,false,10
+SKU-0282,60000000000282,Denim Fabric Roll,Indigo denim roll 40m,120.00,8,false,Materials,raw_material,12,👖,,,,false,10
+SKU-0283,60000000000283,Silk Fabric Roll,Premium silk fabric roll 20m,240.00,8,false,Materials,raw_material,6,🎀,,,,false,10
+SKU-0284,60000000000284,Steel Rod 6mm,Mild steel rod 6mm x 3m bundle,24.50,8,false,Materials,raw_material,45,🔩,,,,false,10
+SKU-0285,60000000000285,Steel Sheet 2mm,Galvanized steel sheet 2mm,38.00,8,false,Materials,raw_material,22,🛠️,,,,false,10
+SKU-0286,60000000000286,Aluminium Profile,Aluminium extrusion profile 2m,16.99,8,false,Materials,raw_material,60,📐,,,,false,10
+SKU-0287,60000000000287,Hardwood Plank Oak,Oak hardwood plank 2.4m,42.00,8,false,Materials,raw_material,30,🪵,,,,false,10
+SKU-0288,60000000000288,Plywood Sheet 12mm,Birch plywood sheet 1220x2440,55.00,8,false,Materials,raw_material,25,🪵,,,,false,10
+SKU-0289,60000000000289,MDF Board 18mm,MDF board sheet standard,28.00,8,false,Materials,raw_material,35,🪵,,,,false,10
+SKU-0290,60000000000290,PVC Pipe 50mm,PVC pipe 50mm x 3m length,8.50,8,false,Materials,raw_material,80,🚰,,,,false,10
+SKU-0291,60000000000291,Copper Wire Roll,Electrical copper wire 2.5mm roll,32.00,8,false,Materials,raw_material,40,⚡,,,,false,10
+SKU-0292,60000000000292,Solder Wire Spool,Lead-free solder wire 500g,18.00,8,false,Materials,raw_material,55,🔥,,,,false,10
+SKU-0293,60000000000293,Flour Bulk 25kg,Baker's flour sack 25kg,22.00,8,false,Ingredients,raw_material,48,🌾,,,,false,10
+SKU-0294,60000000000294,Sugar Bulk 25kg,Granulated sugar sack 25kg,26.00,8,false,Ingredients,raw_material,42,🍬,,,,false,10
+SKU-0295,60000000000295,Cocoa Powder 5kg,Premium cocoa powder 5kg,45.00,8,false,Ingredients,raw_material,20,🍫,,,,false,10
+SKU-0296,60000000000296,Olive Oil Drum,Extra virgin olive oil 20L,95.00,8,false,Ingredients,raw_material,10,🫒,,,,false,10
+SKU-0297,60000000000297,Yeast Bulk 1kg,Instant dry yeast bulk pack,12.00,8,false,Ingredients,raw_material,65,🍞,,,,false,10
+SKU-0298,60000000000298,Ink Cartridge CMYK Set,Large-format printer ink set,180.00,8,false,Print Supplies,raw_material,8,🖨️,,,,false,10
+SKU-0299,60000000000299,Toner Bulk Black,Laser toner bulk cartridge,65.00,8,false,Print Supplies,raw_material,15,🖨️,,,,false,10
+SKU-0300,60000000000300,Glass Panel 6mm,Tempered glass panel 600x800,48.00,8,false,Materials,raw_material,14,🪟,,,,false,10
+SKU-0301,60000000000301,Acrylic Sheet Clear,Clear acrylic sheet 5mm,35.00,8,false,Materials,raw_material,20,💎,,,,false,10
+SKU-0302,60000000000302,Foam Padding Roll,Upholstery foam roll high density,58.00,8,false,Materials,raw_material,16,🛏️,,,,false,10
+SKU-0303,60000000000303,Leather Hide Full,Full grain leather hide,210.00,8,false,Materials,raw_material,5,👜,,,,false,10
+SKU-0304,60000000000304,Zipper Bulk 50cm,Heavy-duty zipper bulk pack x50,29.00,8,false,Materials,raw_material,70,🤐,,,,false,10
+SKU-0305,60000000000305,Button Assortment,Mixed button assortment 500pc,14.00,8,false,Materials,raw_material,90,🔘,,,,false,10
+SKU-0306,60000000000306,Thread Cone Set,Industrial thread cone set x12,36.00,8,false,Materials,raw_material,38,🧵,,,,false,10
+SKU-0307,60000000000307,Elastic Band Roll,Elastic band roll 100m,11.00,8,false,Materials,raw_material,52,〰️,,,,false,10
+SKU-0308,60000000000308,Packaging Film Roll,Shrink wrap film roll,19.00,8,false,Materials,raw_material,44,📦,,,,false,10
+SKU-0309,60000000000309,Corrugated Sheet,Corrugated cardboard sheet bundle,15.00,8,false,Materials,raw_material,100,📦,,,,false,10
+SKU-0310,60000000000310,Adhesive Bulk 5L,Industrial adhesive 5 litre,42.00,8,false,Materials,raw_material,18,🧴,,,,false,10
+SKU-0311,60000000000311,Paint Base White 10L,Interior paint base white 10L,68.00,8,false,Materials,raw_material,12,🎨,,,,false,10
+SKU-0312,60000000000312,Stain Oak 2L,Wood stain oak finish 2L,24.00,8,false,Materials,raw_material,28,🪵,,,,false,10
+SKU-0313,60000000000313,Varnish Gloss 1L,Clear gloss varnish 1L,18.50,8,false,Materials,raw_material,32,✨,,,,false,10
+SKU-0314,60000000000314,Sandpaper Bulk,Mixed grit sandpaper pack x100,22.00,8,false,Materials,raw_material,75,📄,,,,false,10
+SKU-0315,60000000000315,Nail Assortment 5kg,Mixed nail and screw assortment,28.00,8,false,Materials,raw_material,60,🔨,,,,false,10
+SKU-0316,60000000000316,Bolt M8 Pack,Stainless M8 bolt pack x200,19.00,8,false,Materials,raw_material,85,🔩,,,,false,10
+SKU-0317,60000000000317,Rubber Gasket Sheet,Neoprene gasket sheet 3mm,31.00,8,false,Materials,raw_material,24,⭕,,,,false,10
+SKU-0318,60000000000318,Silicone Sealant Case,Food-grade silicone case x24,48.00,8,false,Materials,raw_material,20,🧴,,,,false,10
+SKU-0319,60000000000319,Wax Pellets 10kg,Paraffin wax pellets 10kg,34.00,8,false,Materials,raw_material,26,🕯️,,,,false,10
+SKU-0320,60000000000320,Fragrance Oil 1L,Concentrated fragrance oil 1L,52.00,8,false,Ingredients,raw_material,15,🌸,,,,false,10
+SKU-0321,60000000000321,Shopping Bag Paper,Branded paper shopping bags x100,12.99,8,false,Store Supplies,consumable,200,🛍️,,,,false,20
+SKU-0322,60000000000322,Shopping Bag Reusable,Reusable tote bags x50,45.00,8,false,Store Supplies,consumable,80,👜,,,,false,20
+SKU-0323,60000000000323,Price Label Roll,Thermal price labels roll x2000,8.99,8,false,Store Supplies,consumable,150,🏷️,,,,false,20
+SKU-0324,60000000000324,Barcode Label Roll,Barcode label roll x1500,11.50,8,false,Store Supplies,consumable,120,🏷️,,,,false,20
+SKU-0325,60000000000325,Receipt Paper Roll,Thermal receipt paper x50 rolls,24.99,8,false,Store Supplies,consumable,90,🧾,,,,false,20
+SKU-0326,60000000000326,Packing Tape Roll,Clear packing tape x36 rolls,18.00,8,false,Store Supplies,consumable,110,📦,,,,false,20
+SKU-0327,60000000000327,Bubble Wrap Roll,Bubble wrap roll 100m,22.00,8,false,Store Supplies,consumable,45,🫧,,,,false,20
+SKU-0328,60000000000328,Tissue Paper Pack,Gift tissue paper pack x500,9.50,8,false,Store Supplies,consumable,130,🎀,,,,false,20
+SKU-0329,60000000000329,Gift Box Assorted,Assorted gift boxes pack x30,16.00,8,false,Store Supplies,consumable,75,🎁,,,,false,20
+SKU-0330,60000000000330,Rubber Bands Box,Rubber bands assorted box,4.99,8,false,Store Supplies,consumable,200,⭕,,,,false,20
+SKU-0331,60000000000331,Stapler Refills,Heavy-duty stapler refills x5000,6.50,8,false,Office Supplies,consumable,160,📎,,,,false,20
+SKU-0332,60000000000332,Ballpoint Pens Box,Store pens box x100,14.00,8,false,Office Supplies,consumable,85,🖊️,,,,false,20
+SKU-0333,60000000000333,Notebook A5 Pack,Staff notebooks A5 x20,18.00,8,false,Office Supplies,consumable,40,📓,,,,false,20
+SKU-0334,60000000000334,Cleaning Spray Multi,Multi-surface cleaner x12,28.00,8,false,Maintenance,consumable,55,🧴,,,,false,20
+SKU-0335,60000000000335,Glass Cleaner Bulk,Glass cleaner bulk x12,24.00,8,false,Maintenance,consumable,48,🪟,,,,false,20
+SKU-0336,60000000000336,Floor Cleaner 5L,Floor cleaner concentrate 5L,19.00,8,false,Maintenance,consumable,36,🧹,,,,false,20
+SKU-0337,60000000000337,Mop Head Refill,Microfibre mop head refills x10,22.00,8,false,Maintenance,consumable,42,🧹,,,,false,20
+SKU-0338,60000000000338,Trash Bags Heavy,Heavy-duty trash bags x200,15.00,8,false,Maintenance,consumable,95,🗑️,,,,false,20
+SKU-0339,60000000000339,Hand Sanitizer 5L,Hand sanitizer refill 5L,32.00,8,false,Maintenance,consumable,30,🧴,,,,false,20
+SKU-0340,60000000000340,Disposable Gloves Box,Nitrile gloves box x100,12.00,8,false,Maintenance,consumable,120,🧤,,,,false,20
+SKU-0341,60000000000341,Face Masks Box,Disposable face masks box x50,8.00,8,false,Maintenance,consumable,80,😷,,,,false,20
+SKU-0342,60000000000342,Paper Towels Case,Paper towels case x24 rolls,26.00,8,false,Maintenance,consumable,50,🧻,,,,false,20
+SKU-0343,60000000000343,Toilet Paper Case,Staff toilet paper case,22.00,8,false,Maintenance,consumable,35,🧻,,,,false,20
+SKU-0344,60000000000344,Air Freshener Refill,Automatic air freshener refills x6,18.00,8,false,Maintenance,consumable,44,🌸,,,,false,20
+SKU-0345,60000000000345,Insect Trap Sticky,Sticky insect traps x30,9.00,8,false,Maintenance,consumable,60,🪰,,,,false,20
+SKU-0346,60000000000346,Light Bulb LED Pack,LED bulbs assorted pack x24,34.00,8,false,Maintenance,consumable,38,💡,,,,false,20
+SKU-0347,60000000000347,Battery AA Bulk,AA batteries bulk pack x100,28.00,8,false,Maintenance,consumable,70,🔋,,,,false,20
+SKU-0348,60000000000348,Battery AAA Bulk,AAA batteries bulk pack x100,26.00,8,false,Maintenance,consumable,68,🔋,,,,false,20
+SKU-0349,60000000000349,First Aid Refill,First aid kit refill pack,19.00,8,false,Safety,consumable,25,🩹,,,,false,20
+SKU-0350,60000000000350,Fire Extinguisher Check Tags,Inspection tags pack x50,7.50,8,false,Safety,consumable,100,🧯,,,,false,20
+SKU-0351,60000000000351,Security Tag Pins,EAS security tag pins x500,21.00,8,false,Store Supplies,consumable,180,📍,,,,false,20
+SKU-0352,60000000000352,Hanger Plastic 50,Plastic hangers pack x50,11.00,8,false,Store Supplies,consumable,140,👔,,,,false,20
+SKU-0353,60000000000353,Hanger Velvet 30,Velvet hangers pack x30,16.00,8,false,Store Supplies,consumable,90,👗,,,,false,20
+SKU-0354,60000000000354,Display Hook Pack,Slatwall display hooks x50,13.00,8,false,Store Supplies,consumable,65,🪝,,,,false,20
+SKU-0355,60000000000355,Shelf Talker Cards,Promotional shelf talkers x100,8.00,8,false,Store Supplies,consumable,110,📋,,,,false,20
+SKU-0356,60000000000356,POS Keyboard Cover,Silicone POS keyboard covers x5,15.00,8,false,Store Supplies,consumable,20,⌨️,,,,false,20
+SKU-0357,60000000000357,Card Reader Rolls,Card reader cleaning rolls x20,10.00,8,false,Store Supplies,consumable,55,💳,,,,false,20
+SKU-0358,60000000000358,Coin Wrappers Pack,Coin wrapper tubes assorted,5.50,8,false,Store Supplies,consumable,150,🪙,,,,false,20
+SKU-0359,60000000000359,Cash Drawer Insert,Cash tray insert replacement,14.00,8,false,Store Supplies,consumable,18,💵,,,,false,20
+SKU-0360,60000000000360,Store Sign Clips,Sign holder clips pack x40,9.99,8,false,Store Supplies,consumable,72,📎,,,,false,20
+SKU-0361,60000000000361,Bluetooth Speaker Mini,Portable mini Bluetooth speaker,34.99,8,false,Electronics,stock,55,🔊,,,,false,10
+SKU-0362,60000000000362,Smart Plug 2-Pack,WiFi smart plug twin pack,24.99,8,false,Electronics,stock,70,🔌,,,,false,10
+SKU-0363,60000000000363,LED Strip 5m,RGB LED strip light 5 metre,19.99,8,false,Electronics,stock,88,💡,,,,false,10
+SKU-0364,60000000000364,Phone Stand Adjustable,Adjustable desk phone stand,12.99,8,false,Electronics,stock,95,📱,,,,false,10
+SKU-0365,60000000000365,Laptop Sleeve 15,Neoprene laptop sleeve 15 inch,18.50,8,false,Electronics,stock,60,💻,,,,false,10
+SKU-0366,60000000000366,Running Shoes Pro,Lightweight running shoes,89.99,8,false,Footwear,stock,42,👟,,,,false,10
+SKU-0367,60000000000367,Casual Sneakers,Everyday casual sneakers,59.99,8,false,Footwear,stock,58,👟,,,,false,10
+SKU-0368,60000000000368,Leather Sandals,Men's leather sandals,45.00,8,false,Footwear,stock,36,🩴,,,,false,10
+SKU-0369,60000000000369,Winter Boots,Insulated winter boots,79.99,8,false,Footwear,stock,28,🥾,,,,false,10
+SKU-0370,60000000000370,Canvas Tote Bag,Heavy canvas tote bag,22.00,8,false,Accessories,stock,74,👜,,,,false,10
+SKU-0371,60000000000371,Leather Belt Classic,Full-grain leather belt,35.00,8,false,Accessories,stock,48,👔,,,,false,10
+SKU-0372,60000000000372,Silk Scarf,Printed silk scarf,28.00,8,false,Accessories,stock,52,🧣,,,,false,10
+SKU-0373,60000000000373,Sunglasses Polarized,Polarized UV sunglasses,42.00,8,false,Accessories,stock,65,🕶️,,,,false,10
+SKU-0374,60000000000374,Stainless Water Bottle,Insulated water bottle 750ml,16.99,8,false,Accessories,stock,110,🥤,,,,false,10
+SKU-0375,60000000000375,Yoga Mat Premium,Non-slip yoga mat 6mm,29.99,8,false,Sports,stock,45,🧘,,,,false,10
+SKU-0376,60000000000376,Dumbbell Set 5kg,Neoprene dumbbell pair 5kg,38.00,8,false,Sports,stock,30,🏋️,,,,false,10
+SKU-0377,60000000000377,Resistance Bands Set,Resistance bands set x5,14.99,8,false,Sports,stock,85,💪,,,,false,10
+SKU-0378,60000000000378,Camping Lantern LED,Rechargeable camping lantern,27.00,8,false,Outdoor,stock,40,🏕️,,,,false,10
+SKU-0379,60000000000379,Sleeping Bag Lite,Lightweight sleeping bag,49.99,8,false,Outdoor,stock,22,🛏️,,,,false,10
+SKU-0380,60000000000380,Hiking Backpack 40L,40L hiking backpack,69.00,8,false,Outdoor,stock,26,🎒,,,,false,10
+SKU-0381,60000000000381,Ceramic Mug Set,Ceramic mug set x4,18.00,8,false,Home,stock,80,☕,,,,false,10
+SKU-0382,60000000000382,Glass Storage Set,Borosilicate storage set x5,32.00,8,false,Home,stock,44,🫙,,,,false,10
+SKU-0383,60000000000383,Non-Stick Pan 28cm,Non-stick frying pan 28cm,26.99,8,false,Home,stock,50,🍳,,,,false,10
+SKU-0384,60000000000384,Knife Block Set,Stainless knife block 6-piece,54.00,8,false,Home,stock,24,🔪,,,,false,10
+SKU-0385,60000000000385,Bath Towel Set,Cotton bath towel set x4,36.00,8,false,Home,stock,38,🛁,,,,false,10
+SKU-0386,60000000000386,Bed Sheet Queen,Queen cotton bed sheet set,42.00,8,false,Home,stock,32,🛏️,,,,false,10
+SKU-0387,60000000000387,Scented Candle Large,Soy scented candle 400g,15.99,8,false,Home,stock,90,🕯️,,,,false,10
+SKU-0388,60000000000388,Diffuser Reed Set,Reed diffuser gift set,19.99,8,false,Home,stock,66,🌸,,,,false,10
+SKU-0389,60000000000389,Board Game Strategy,Family strategy board game,34.99,8,false,Toys,stock,35,🎲,,,,false,10
+SKU-0390,60000000000390,Puzzle 1000pc,Landscape jigsaw 1000 pieces,14.99,8,false,Toys,stock,72,🧩,,,,false,10
+SKU-0391,60000000000391,Building Blocks Set,Creative building blocks 500pc,29.00,8,false,Toys,stock,48,🧱,,,,false,10
+SKU-0392,60000000000392,Remote Control Car,RC stunt car rechargeable,39.99,8,false,Toys,stock,40,🏎️,,,,false,10
+SKU-0393,60000000000393,Art Supply Kit,Mixed media art supply kit,24.99,8,false,Stationery,stock,55,🎨,,,,false,10
+SKU-0394,60000000000394,Notebook Hardcover A4,Hardcover notebook A4 ruled,8.99,8,false,Stationery,stock,120,📔,,,,false,10
+SKU-0395,60000000000395,Marker Set Dual Tip,Dual-tip marker set x24,16.50,8,false,Stationery,stock,85,🖍️,,,,false,10
+SKU-0396,60000000000396,Desk Organizer Bamboo,Bamboo desk organizer,21.00,8,false,Stationery,stock,46,🗂️,,,,false,10
+SKU-0397,60000000000397,Organic Green Tea Box,Organic green tea box x30,11.99,8,false,Grocery,stock,68,🍵,,,,false,10
+SKU-0398,60000000000398,Granola Mix 1kg,Artisan granola mix 1kg,9.99,8,false,Grocery,stock,92,🥣,,,,false,10
+SKU-0399,60000000000399,Dark Chocolate Bar,Single-origin dark chocolate 100g,4.50,8,false,Grocery,stock,150,🍫,,,,false,10
+SKU-0400,60000000000400,Sparkling Water 12pk,Premium sparkling water 12-pack,8.99,8,false,Grocery,stock,105,💧,,,,false,10
