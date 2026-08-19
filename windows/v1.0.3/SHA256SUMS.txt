@@ -1,0 +1,2 @@
+dc288f4e4c723d76a422a289c5a2f020a468b99417e7bc9c269160ca3cab6bda  minibook3-1.0.3-win64-portable.zip
+31322da8bfc5cffb601d86defce5dd9fb74774b27d565851c8dc13b177e7ee33  minibook3-1.0.3-win64-setup.exe

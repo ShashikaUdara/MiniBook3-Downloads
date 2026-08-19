@@ -3,7 +3,7 @@
 #
 # Usage (GitHub Releases warehouse):
 #   irm https://github.com/ShashikaUdara/MiniBook3-Downloads/releases/latest/download/install.ps1 | iex
-#   irm …/install.ps1 | iex -Version 1.0.2
+#   irm …/install.ps1 | iex -Version 1.0.3
 #
 # Local test host (legacy path layout):
 #   irm http://127.0.0.1:8765/minibook3/windows/latest/install.ps1 | iex -BaseUrl http://127.0.0.1:8765/minibook3
@@ -23,7 +23,7 @@ param(
 $ErrorActionPreference = "Stop"
 
 $DefaultBaseUrl = "https://github.com/ShashikaUdara/MiniBook3-Downloads/releases"
-$DefaultVersion = "1.0.2"
+$DefaultVersion = "1.0.3"
 $SupportedArch = "AMD64"
 
 if ([string]::IsNullOrWhiteSpace($BaseUrl)) {
@@ -40,7 +40,7 @@ MiniBook3 — one-line Windows installer (remote bootstrap)
 
 Usage:
   irm https://github.com/ShashikaUdara/MiniBook3-Downloads/releases/latest/download/install.ps1 | iex
-  irm …/install.ps1 | iex -Version 1.0.2
+  irm …/install.ps1 | iex -Version 1.0.3
 
 Options:
   -Version X.Y.Z     Pin release version (default: baked / latest stable)
