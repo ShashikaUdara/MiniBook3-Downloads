@@ -10,6 +10,7 @@
 
 > **Release notes & publish sheets:** [`releases/`](./releases/)  
 > **Layout / auto-update freeze:** [`layout.md`](./layout.md)  
+> **Delta packages (optional):** [`deltas.md`](./deltas.md)  
 > **Current wave:** [`releases/PUBLISH_v1.0.4.md`](./releases/PUBLISH_v1.0.4.md) · [`releases/RELEASE_NOTES_v1.0.4.md`](./releases/RELEASE_NOTES_v1.0.4.md)
 
 
