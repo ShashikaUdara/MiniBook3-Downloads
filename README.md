@@ -28,9 +28,9 @@ See [`docs/layout.md`](./docs/layout.md).
 | Channel | Pointer file | Current |
 |---------|----------------|---------|
 | Windows stable | `windows/latest/stable/latest.txt` | **1.0.3** (keep until v1.0.4 assets HTTP 200) |
-| Linux stable | `linux/latest/stable/latest.txt` | **1.0.2** (promote with matching Linux assets) |
+| Linux stable | `linux/latest/stable/latest.txt` | **1.0.2** (do not flip until v1.0.4 Linux URLs HTTP 200) |
 
-**Next ship:** **v1.0.4** — production licence harden + admin password reset.
+**Next ship:** **v1.0.4** — Linux staged (`linux/v1.0.4/`, `github-release-assets/v1.0.4/`, `staging/v1.0.4/`). Windows still pending. Auto-update pointers **not** flipped yet.
 
 ---
 
@@ -41,10 +41,11 @@ See [`docs/layout.md`](./docs/layout.md).
 | [`docs/releases/`](./docs/releases/) | Release notes + publish checklists (all waves) |
 | [`docs/releases/RELEASE_NOTES_v1.0.4.md`](./docs/releases/RELEASE_NOTES_v1.0.4.md) | **v1.0.4** notes — Linux + Windows + one-line install |
 | [`docs/releases/PUBLISH_v1.0.4.md`](./docs/releases/PUBLISH_v1.0.4.md) | Upload order for this wave |
+| [`linux/v1.0.4/`](./linux/v1.0.4/) | Linux pointer files for this version (commit-safe) |
+| [`github-release-assets/v1.0.4/`](./github-release-assets/v1.0.4/) | Small Linux files ready to drag onto GitHub Release |
+| [`staging/v1.0.4/`](./staging/v1.0.4/) | Binary tray (gitignored) — upload from here |
 | [`docs/guide.md`](./docs/guide.md) | How GitHub Releases hosting works |
 | [`docs/layout.md`](./docs/layout.md) | What may move vs what must stay |
-| `github-release-assets/` | Small files ready to drag onto a GitHub Release |
-| `staging/` | Local binary tray (gitignored) — never push |
 | `test-data/` | Sample CSVs for demos |
 
 Canonical product playbook: `MiniBook3/docs/release.md`.

@@ -4,10 +4,22 @@ This sheet is the warehouse checklist. Eng has bumped `version.py` to **1.0.4** 
 
 **Do not** commit `*.exe`, `*.zip`, or large tarballs. **Do not** push `windows/latest/stable/latest.txt` (or Linux `latest.txt`) until every public asset returns **HTTP 200**.
 
+**Git default branch must be `main`** (D127). POS Check now reads `raw.githubusercontent.com/…/MiniBook3-Downloads/main/…`. Pushing only to another branch leaves shops on HTTP 404.
+
 Keep Admin “latest” / public Downloads on **v1.0.3** (Windows) / current Linux pointer until this tag is verified.
 
 **Notes file (GitHub Release body):** [`RELEASE_NOTES_v1.0.4.md`](./RELEASE_NOTES_v1.0.4.md)  
 **Layout rules:** [`../layout.md`](../layout.md)
+
+### Staged locally (2026-08-24) — Linux from `Linux-MiniBook3/release`
+
+| Location | Contents |
+|----------|----------|
+| `linux/v1.0.4/` | `install.sh`, `download-manifest.json`, slim `SHA256SUMS.txt` (commit-safe) |
+| `github-release-assets/v1.0.4/` | Same small files + notes + `stable-latest.txt` for GitHub drag-upload |
+| `staging/v1.0.4/` | Binaries (tar.gz / AppImage / `.deb`) — **gitignored**; upload to GitHub Release from here |
+
+**Not flipped yet:** `linux/latest/stable/latest.txt` still **1.0.2** (wait for HTTP 200 on public assets).
 
 ---
 
