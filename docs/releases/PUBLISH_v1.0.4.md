@@ -184,4 +184,4 @@ Rollback Linux: set `linux/latest/stable/latest.txt` back to `1.0.2` (or prior l
 - [ ] Fresh Windows VM: About **1.0.4**
 - [ ] `/downloads` shows Windows 1.0.4 in a private window
 
-Canonical playbook: `MiniBook3/docs/release.md` · plan: `MiniBook3/docs/adhocs.md` **W57** / **D125**.
+Canonical playbook: `MiniBook3/docs/release.md` · Windows hand-off: `MiniBook3/docs/team-notes.md` · plan: `MiniBook3/docs/adhocs.md` **W57** / **D125**.
