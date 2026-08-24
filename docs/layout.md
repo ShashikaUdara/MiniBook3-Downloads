@@ -15,6 +15,8 @@ POS code resolves updates from:
 
 `https://raw.githubusercontent.com/ShashikaUdara/MiniBook3-Downloads/main/…`
 
+**Required:** GitHub default branch must be **`main`**. A personal-only default (e.g. `Udara`) makes production Check now return HTTP 404 (**D127** / W55).
+
 Canonical helpers: `Linux-MiniBook3` / `Windows-MiniBook3` → `minibook3.infrastructure.updates.cdn_paths`.
 
 | Must stay | Why |
