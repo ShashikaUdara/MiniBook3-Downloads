@@ -11,9 +11,11 @@ This sheet is the warehouse checklist. Eng has bumped `version.py` to **1.0.4** 
 
 ---
 
-## HTTP 200 smoke (2026-08-24 18:30 +0530)
+## HTTP 200 smoke (2026-08-24 18:30 +0530 · **U9 re-probe 21:40 +0530**)
 
 Probed against live GitHub Release tag [`v1.0.4`](https://github.com/ShashikaUdara/MiniBook3-Downloads/releases/tag/v1.0.4). Remote `SHA256SUMS.txt` matches the rebuilt Linux tray.
+
+**U9 command:** `make smoke-u9-windows-parity` → exit **2** (Blocked) until Windows binaries are uploaded; then `REQUIRE_LIVE=1` must exit **0** before flipping `windows/latest`.
 
 ### Linux — **green** (ready to promote channel)
 
