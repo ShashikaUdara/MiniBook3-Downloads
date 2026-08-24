@@ -1,3 +1,5 @@
+> **Location:** `docs/releases/` (moved for organization; auto-update paths under `windows/` / `linux/` unchanged).
+
 # Publish MiniBook3 v1.0.3 (Windows)
 
 This sheet is the warehouse checklist. The till files are already built. You upload the heavy installers by hand. Git only holds the small pointer files.
