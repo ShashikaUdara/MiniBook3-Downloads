@@ -5,7 +5,7 @@
 Release date: 2026-08-24  
 Hosted on: [MiniBook3-Downloads · v1.0.4](https://github.com/ShashikaUdara/MiniBook3-Downloads/releases/tag/v1.0.4)
 
-Trust wave for the buyable aisle: released tills stay on the **production** MiniBook3 licence plane, and **admin password reset** works against that same cloud. **Linux and Windows** ship on the same tag so the downloads aisle is not a mixed-version shelf.
+Trust wave for the buyable aisle: released tills stay on the **production** MiniBook3 licence plane, and **admin password reset** works against that same cloud. **Linux** ships on tag `v1.0.4` now; **Windows** packages attach to the same tag when the Windows build is uploaded (until then, shops stay on **v1.0.3** Windows installs).
 
 ---
 
@@ -170,7 +170,7 @@ Existing installs: **Settings → Updates → Check now**, then restart when the
 
 In-app auto-update reads channel pointers on this warehouse repo (`windows/latest/stable/latest.txt` and the Linux equivalent) — operators promote those **only after** every public asset returns HTTP 200.
 
-User data is preserved. Schema **v49** migrations run on first launch if needed. Take a backup before upgrading a live shop.
+User data is preserved. Schema **v50** migrations run on first launch if needed. Take a backup before upgrading a live shop.
 
 **Before upgrading shops:** confirm `https://api-minibook3.zolestio.com` serves admin-password token routes.
 

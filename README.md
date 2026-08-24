@@ -25,12 +25,14 @@ See [`docs/layout.md`](./docs/layout.md).
 
 ## Live channels (today)
 
-| Channel | Pointer file | Current |
-|---------|----------------|---------|
-| Windows stable | `windows/latest/stable/latest.txt` | **1.0.3** (keep until v1.0.4 assets HTTP 200) |
-| Linux stable | `linux/latest/stable/latest.txt` | **1.0.2** (do not flip until v1.0.4 Linux URLs HTTP 200) |
+| Channel | Pointer file | Public GitHub assets | Local tree | Remote `main` (raw) |
+|---------|----------------|----------------------|------------|---------------------|
+| Windows stable | `windows/latest/stable/latest.txt` | **v1.0.3** live · **v1.0.4 Windows still 404** | **1.0.3** | **1.0.3** |
+| Linux stable | `linux/latest/stable/latest.txt` | **v1.0.4 Linux HTTP 200** | **1.0.4** (ready to push) | Still **1.0.2** until warehouse git push |
 
-**Next ship:** **v1.0.4** (same tag — Linux rebuild replaced 2026-08-24 evening). Staged in `linux/v1.0.4/`, `github-release-assets/v1.0.4/`, `staging/v1.0.4/`. Windows still pending. Auto-update pointers **not** flipped yet.
+**Cutover (2026-08-24 smoke):** Linux tarball / AppImage / `.deb` / `install.sh` / `SHA256SUMS` / notes all **200** on tag [`v1.0.4`](https://github.com/ShashikaUdara/MiniBook3-Downloads/releases/tag/v1.0.4). Windows setup / portable / `install.ps1` still **404** — do not flip Windows pointer or Admin Windows 1.0.4 rows yet.
+
+See [`docs/releases/PUBLISH_v1.0.4.md`](./docs/releases/PUBLISH_v1.0.4.md).
 
 ---
 
@@ -40,10 +42,10 @@ See [`docs/layout.md`](./docs/layout.md).
 |------|------------|
 | [`docs/releases/`](./docs/releases/) | Release notes + publish checklists (all waves) |
 | [`docs/releases/RELEASE_NOTES_v1.0.4.md`](./docs/releases/RELEASE_NOTES_v1.0.4.md) | **v1.0.4** notes — Linux + Windows + one-line install |
-| [`docs/releases/PUBLISH_v1.0.4.md`](./docs/releases/PUBLISH_v1.0.4.md) | Upload order for this wave |
+| [`docs/releases/PUBLISH_v1.0.4.md`](./docs/releases/PUBLISH_v1.0.4.md) | Upload order + **HTTP 200 smoke log** |
 | [`linux/v1.0.4/`](./linux/v1.0.4/) | Linux pointer files for this version (commit-safe) |
-| [`github-release-assets/v1.0.4/`](./github-release-assets/v1.0.4/) | Small Linux files ready to drag onto GitHub Release |
-| [`staging/v1.0.4/`](./staging/v1.0.4/) | Binary tray (gitignored) — upload from here |
+| [`github-release-assets/v1.0.4/`](./github-release-assets/v1.0.4/) | Small Linux files for GitHub Release |
+| [`staging/v1.0.4/`](./staging/v1.0.4/) | Binary tray (gitignored) |
 | [`docs/guide.md`](./docs/guide.md) | How GitHub Releases hosting works |
 | [`docs/layout.md`](./docs/layout.md) | What may move vs what must stay |
 | `test-data/` | Sample CSVs for demos |
