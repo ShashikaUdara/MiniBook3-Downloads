@@ -30,7 +30,7 @@ See [`docs/layout.md`](./docs/layout.md).
 | Windows stable | `windows/latest/stable/latest.txt` | **1.0.3** (keep until v1.0.4 assets HTTP 200) |
 | Linux stable | `linux/latest/stable/latest.txt` | **1.0.2** (do not flip until v1.0.4 Linux URLs HTTP 200) |
 
-**Next ship:** **v1.0.4** — Linux staged (`linux/v1.0.4/`, `github-release-assets/v1.0.4/`, `staging/v1.0.4/`). Windows still pending. Auto-update pointers **not** flipped yet.
+**Next ship:** **v1.0.4** (same tag — Linux rebuild replaced 2026-08-24 evening). Staged in `linux/v1.0.4/`, `github-release-assets/v1.0.4/`, `staging/v1.0.4/`. Windows still pending. Auto-update pointers **not** flipped yet.
 
 ---
 

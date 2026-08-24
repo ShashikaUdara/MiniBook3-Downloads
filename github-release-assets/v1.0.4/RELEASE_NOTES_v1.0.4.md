@@ -18,9 +18,10 @@ Production cloud harden for shipped registers (Linux and Windows), plus the cont
 - **Released tills → production only** — Frozen builds ignore lab `MINIBOOK3_USE_LOCAL_CLOUD` and reject loopback licence/payment URL overrides (unless an undocumented eng escape hatch). Shops talk to `https://api-minibook3.zolestio.com` and `https://minibook3.zolestio.com`
 - **Admin password reset on MiniBook3 API** — Token request / redeem on the production licence plane (Brevo email), so reset no longer depends on a missing route or a leftover localhost target
 - **Clearer cloud errors** — Humanized copy when the licence host is unreachable or a control-plane path is missing
-- **Still from 1.0.3** — Buyable Windows + Linux aisle, register chrome polish, Free · Solo · Enterprise ladder, schema **v49**
+- **Faster store-credit customer search** — Select payment looks up active customers by **name/phone prefix** (lean API path) so typing on the till feels instant; Credits directory still supports contains search
+- **Still from 1.0.3** — Buyable Windows + Linux aisle, register chrome polish, Free · Solo · Enterprise ladder
 - **Packages you can buy** — Public ladder remains **Free · Solo · Enterprise** (USD; PayHere). Credits and Multi stay capabilities, not extra SKUs
-- **Ledger** — schema **v49** (no new migration in this wave). Backup before upgrading a live shop. Linux ≡ Windows
+- **Ledger** — schema **v50** (phone prefix index for credit search). Backup before upgrading a live shop. Linux ≡ Windows
 - **Not claimed** — this release does **not** stamp “20M ready”. Large-catalog / long-history work stays inside the existing soak envelope
 
 ---

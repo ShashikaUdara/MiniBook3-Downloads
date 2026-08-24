@@ -9,17 +9,17 @@
     {
       "kind": "tarball",
       "filename": "minibook3-1.0.4-linux-x86_64.tar.gz",
-      "url": "https://github.com/ShashikaUdara/MiniBook3-Downloads/releases/download/v1.0.4/minibook3-1.0.4-linux-x86_64.tar.gz"
+      "url": "https://github.com/ShashikaUdara/MiniBook3-Downloads/releases/latest/download/minibook3-1.0.4-linux-x86_64.tar.gz"
     },
     {
       "kind": "appimage",
       "filename": "minibook3-1.0.4-linux-x86_64.AppImage",
-      "url": "https://github.com/ShashikaUdara/MiniBook3-Downloads/releases/download/v1.0.4/minibook3-1.0.4-linux-x86_64.AppImage"
+      "url": "https://github.com/ShashikaUdara/MiniBook3-Downloads/releases/latest/download/minibook3-1.0.4-linux-x86_64.AppImage"
     },
     {
       "kind": "deb",
       "filename": "minibook3_1.0.4_amd64.deb",
-      "url": "https://github.com/ShashikaUdara/MiniBook3-Downloads/releases/download/v1.0.4/minibook3_1.0.4_amd64.deb"
+      "url": "https://github.com/ShashikaUdara/MiniBook3-Downloads/releases/latest/download/minibook3_1.0.4_amd64.deb"
     }
   ],
   "install": {
@@ -29,7 +29,7 @@
     "latest_url": "https://github.com/ShashikaUdara/MiniBook3-Downloads/releases/latest/download/stable-latest.txt"
   },
   "integrity": {
-    "checksums": "https://github.com/ShashikaUdara/MiniBook3-Downloads/releases/download/v1.0.4/SHA256SUMS.txt",
+    "checksums": "https://github.com/ShashikaUdara/MiniBook3-Downloads/releases/latest/download/SHA256SUMS.txt",
     "checksums_signature": "https://github.com/ShashikaUdara/MiniBook3-Downloads/releases/latest/download/SHA256SUMS.txt.asc",
     "verify_command": "sha256sum -c SHA256SUMS.txt",
     "gpg_verify_command": "gpg --verify SHA256SUMS.txt.asc SHA256SUMS.txt"

@@ -13,11 +13,22 @@ Keep Admin “latest” / public Downloads on **v1.0.3** (Windows) / current Lin
 
 ### Staged locally (2026-08-24) — Linux from `Linux-MiniBook3/release`
 
+**Replaced same day (evening):** rebuilt Linux **1.0.4** (still this tag — not 1.0.5) after POS till changes. Staging binaries + slim checksums refreshed from `Linux-MiniBook3/release/`. Previous checksums are obsolete — re-upload GitHub Release assets if a tag already exists.
+
 | Location | Contents |
 |----------|----------|
 | `linux/v1.0.4/` | `install.sh`, `download-manifest.json`, slim `SHA256SUMS.txt` (commit-safe) |
 | `github-release-assets/v1.0.4/` | Same small files + notes + `stable-latest.txt` for GitHub drag-upload |
 | `staging/v1.0.4/` | Binaries (tar.gz / AppImage / `.deb`) — **gitignored**; upload to GitHub Release from here |
+
+**Current Linux SHA-256 (basename form):**
+
+```
+97c972e22d5d5b44f90f82710272f89cff0652da46e139a3e473a306e1a9be05  minibook3-1.0.4-linux-x86_64.tar.gz
+9babbea8c6abb4c08a1a265bab8b169a39d98b3b57b667b4149ec62dadaa5049  minibook3-1.0.4-linux-x86_64.AppImage
+6c206792f5cafd4faada9bd243df6632908454e5361d2a9ffe7a9e05407133c0  minibook3_1.0.4_amd64.deb
+92ca95f8a3c44a105a4e3780753fe9ccb055aba0b2d908e527942a91b6ca4559  install.sh
+```
 
 **Not flipped yet:** `linux/latest/stable/latest.txt` still **1.0.2** (wait for HTTP 200 on public assets).
 
