@@ -3,17 +3,17 @@
 # Generated at build time — edit packaging/linux/install-remote.sh.in
 #
 # Usage (GitHub Releases warehouse):
+#   curl -fsSL https://github.com/ShashikaUdara/MiniBook3-Downloads/releases/download/v1.0.4/install.sh | bash
 #   curl -fsSL https://github.com/ShashikaUdara/MiniBook3-Downloads/releases/latest/download/install.sh | bash
-#   curl -fsSL …/releases/latest/download/install.sh | bash -s -- --version 1.0.2
-#
+#   curl -fsSL …/install.sh | bash -s -- --version 1.0.4   # optional pin when using rolling latest
 # Local test host (legacy path layout):
 #   curl -fsSL http://127.0.0.1:8765/minibook3/linux/latest/install.sh | bash -s -- \
-#     --base-url http://127.0.0.1:8765/minibook3 --version 1.0.2
+#     --base-url http://127.0.0.1:8765/minibook3 --version 1.0.4
 
 set -euo pipefail
 
 DEFAULT_BASE_URL="https://github.com/ShashikaUdara/MiniBook3-Downloads/releases"
-DEFAULT_VERSION="1.0.2"
+DEFAULT_VERSION="1.0.4"
 DEFAULT_CHANNEL="stable"
 SUPPORTED_ARCH="x86_64"
 
@@ -30,8 +30,9 @@ MiniBook3 — one-line Linux installer (remote bootstrap)
 Downloads the release tarball, verifies SHA-256, extracts, and runs install.sh.
 
 Usage:
+  curl -fsSL https://github.com/ShashikaUdara/MiniBook3-Downloads/releases/download/v1.0.4/install.sh | bash
   curl -fsSL https://github.com/ShashikaUdara/MiniBook3-Downloads/releases/latest/download/install.sh | bash
-  curl -fsSL …/install.sh | bash -s -- --version 1.0.2
+  curl -fsSL …/install.sh | bash -s -- --version 1.0.4
   curl -fsSL …/install.sh | bash -s -- [options]
 
 Options:
