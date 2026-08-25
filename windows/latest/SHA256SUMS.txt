@@ -1,2 +1,3 @@
-dc288f4e4c723d76a422a289c5a2f020a468b99417e7bc9c269160ca3cab6bda  minibook3-1.0.3-win64-portable.zip
-31322da8bfc5cffb601d86defce5dd9fb74774b27d565851c8dc13b177e7ee33  minibook3-1.0.3-win64-setup.exe
+10a036d8271346cad3894e9c94570814c9d27c1d5a3c2267de58ff867c5ba213  install.ps1
+f76bc13cc9ae4efd9d4e23696d4ce7e98931f59b7454686bfd264b3d3e8c67fa  minibook3-1.0.4-win64-portable.zip
+c1890f4ae1bc7a0b3a09b12068a295a7df1ce5af073b07ca9458eac456274c92  minibook3-1.0.4-win64-setup.exe

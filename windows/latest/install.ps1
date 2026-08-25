@@ -23,7 +23,7 @@ param(
 $ErrorActionPreference = "Stop"
 
 $DefaultBaseUrl = "https://github.com/ShashikaUdara/MiniBook3-Downloads/releases"
-$DefaultVersion = "1.0.3"
+$DefaultVersion = "1.0.4"
 $SupportedArch = "AMD64"
 
 if ([string]::IsNullOrWhiteSpace($BaseUrl)) {
