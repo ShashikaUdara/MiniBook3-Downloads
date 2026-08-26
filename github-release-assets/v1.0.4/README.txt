@@ -1,21 +1,19 @@
 MiniBook3 v1.0.4 — upload / re-attach notes
 
-Linux (LIVE HTTP 200 as of 2026-08-24 smoke):
+Status 2026-08-26: BOTH OS LIVE (HTTP 200). Channel pointers on main = 1.0.4.
+
+Linux:
   minibook3-1.0.4-linux-x86_64.tar.gz
   minibook3-1.0.4-linux-x86_64.AppImage
   minibook3_1.0.4_amd64.deb
-  SHA256SUMS.txt
+  SHA256SUMS.txt (merged)
   install.sh
-  RELEASE_NOTES_v1.0.4.md
+  download-manifest.json / linux-* helpers
 
-Optional (not blocking):
-  download-manifest.json
-  stable-latest.txt / linux-stable-latest.txt
-
-Windows (still HTTP 404 — do not flip windows/latest yet):
+Windows:
   minibook3-1.0.4-win64-setup.exe
   minibook3-1.0.4-win64-portable.zip
   install.ps1
+  windows-* helpers
 
-Local linux/latest/stable/latest.txt is prepared as 1.0.4 — push warehouse main to flip auto-update.
 See docs/releases/PUBLISH_v1.0.4.md.

@@ -5,7 +5,7 @@
 Release date: 2026-08-24  
 Hosted on: [MiniBook3-Downloads · v1.0.4](https://github.com/ShashikaUdara/MiniBook3-Downloads/releases/tag/v1.0.4)
 
-Trust wave for the buyable aisle: released tills stay on the **production** MiniBook3 licence plane, and **admin password reset** works against that same cloud. **Linux** ships on tag `v1.0.4` now; **Windows** packages attach to the same tag when the Windows build is uploaded (until then, shops stay on **v1.0.3** Windows installs).
+Trust wave for the buyable aisle: released tills stay on the **production** MiniBook3 licence plane, and **admin password reset** works against that same cloud. **Linux** and **Windows** both ship on tag `v1.0.4` (setup / portable / tarball / AppImage / `.deb` as attached).
 
 ---
 

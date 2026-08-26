@@ -17,14 +17,19 @@
 ## Flow (big picture)
 
 ```text
-1. Build MiniBook3 release artifacts
-2. Clean Versions-MiniBook3-Downloads (no huge git commits)
-3. Commit & push tiny files only (README, docs, .gitignore)
-4. Create GitHub Release tag (e.g. v1.0.2)
-5. Upload installer files as Release assets
-6. Paste asset URLs into Zolestio Admin → Downloads
-7. Smoke-test download links
+1. Build MiniBook3 release artifacts (POS CI: Release Linux / Release Windows)
+2. Publish POS GitHub Release on MiniBook3-Linux or MiniBook3-Windows
+3. Run Actions → Publish Warehouse (WF19) on that POS repo
+   → uploads assets to MiniBook3-Downloads Release
+   → merges SHA256SUMS (keeps the other OS)
+   → smokes HTTP 200
+   → optionally flips linux|windows/latest/stable/latest.txt on main
+4. Paste versioned asset URLs into Zolestio Admin → Downloads (still operator)
+5. Smoke-test download links / Check for Updates
 ```
+
+**Automated path (preferred):** POS monorepo `MiniBook3/docs/workflows.md` §3.4 / §7e (**D146** / Publish Warehouse).  
+Requires repo secret `WAREHOUSE_GITHUB_TOKEN` on the POS repo. Manual drag-upload below remains a valid fallback.
 
 ---
 
@@ -315,7 +320,7 @@ MiniBook3 Settings → Updates uses:
 | Role | Where |
 |------|--------|
 | Default update base | `https://raw.githubusercontent.com/ShashikaUdara/MiniBook3-Downloads/main` |
-| Channel pointer | `linux/latest/stable/latest.txt` (contents: `1.0.2`) |
+| Channel pointer | `linux/latest/stable/latest.txt` / `windows/…` (today: `1.0.4`) |
 | Manifest | `linux/latest/stable/channel-manifest.json` with **absolute** `…/releases/download/v…/…` URLs |
 | Binary payload | GitHub Release assets only (never raw.githubusercontent for tarballs) |
 
@@ -350,4 +355,4 @@ gh release view "v${VER}" --json assets --jq '.assets[].browserDownloadUrl'
 
 ---
 
-*Guide for Versions-MiniBook3-Downloads · 2026-07-31*
+*Guide for Versions-MiniBook3-Downloads · updated 2026-08-26*

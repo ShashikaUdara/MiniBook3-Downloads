@@ -4,7 +4,7 @@ Operator documents for each MiniBook3 ship. **Not** read by in-app auto-update.
 
 | Version | Release notes | Publish checklist |
 |---------|---------------|-------------------|
-| **v1.0.4** (next) | [`RELEASE_NOTES_v1.0.4.md`](./RELEASE_NOTES_v1.0.4.md) | [`PUBLISH_v1.0.4.md`](./PUBLISH_v1.0.4.md) |
+| **v1.0.4** (current · both OS) | [`RELEASE_NOTES_v1.0.4.md`](./RELEASE_NOTES_v1.0.4.md) | [`PUBLISH_v1.0.4.md`](./PUBLISH_v1.0.4.md) |
 | v1.0.3 | [`RELEASE_NOTES_v1.0.3.md`](./RELEASE_NOTES_v1.0.3.md) | [`PUBLISH_v1.0.3.md`](./PUBLISH_v1.0.3.md) |
 | v1.0.2 | [`RELEASE_NOTES_v1.0.2.md`](./RELEASE_NOTES_v1.0.2.md) | — |
 
