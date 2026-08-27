@@ -38,5 +38,5 @@
     "install_guide": "packaging/INSTALL.md",
     "release_notes": "RELEASE_NOTES_v1.0.4.md"
   },
-  "scope_note": "Linux x86_64 only in this release channel. Windows installer ships on the same tag (see windows/latest)."
+  "scope_note": "Linux x86_64 only in this release channel. Windows installer ships separately on the same tag when ready."
 }
